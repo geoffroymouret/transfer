@@ -22,8 +22,8 @@
     },
     algorithm: !obj:pylearn2.training_algorithms.sgd.SGD {
         batch_size: 64,
-        learning_rate: 0.003000,
-        init_momentum: 0.100000,
+        learning_rate: 0.100000,
+        init_momentum: 0.900000,
         monitoring_dataset:
             {
                 'train' : !obj:contest_dataset.ContestDataset {
@@ -54,13 +54,13 @@
     extensions: [
         !obj:pylearn2.train_extensions.best_params.MonitorBasedSaveBest {
              channel_name: 'valid_y_misclass',
-             save_path: "2MLPSoftmax_LR0.003_Momentum0.1_best.pkl"
+             save_path: "2MLPSoftmax_LR0.1Momentum0.9_best.pkl"
         }, !obj:pylearn2.training_algorithms.sgd.MomentumAdjustor {
             start: 1,
             saturate: 250,
             final_momentum: .99
         }
     ],
-    save_path: "2MLPSoftmax_LR0.003_Momentum0.1.pkl",
+    save_path: "2MLPSoftmax_LR0.1Momentum0.9.pkl",
     save_freq: 1
     }
