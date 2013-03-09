@@ -32,7 +32,7 @@
                               stop: 3400,
                               preprocessor : !obj:pylearn2.datasets.preprocessing.Standardize {},
                               fit_preprocessor: True,
-                              fit__test_preprocessor: True
+                              fit_test_preprocessor: True
                               },
                 'valid' : !obj:contest_dataset.ContestDataset {
                               which_set: 'train',
