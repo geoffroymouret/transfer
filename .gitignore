@@ -1,2 +1,3 @@
-LOGS.NOBACKUP/
+core.*
+LOGS.*
 TMP_DBI/
