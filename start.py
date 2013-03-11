@@ -7,7 +7,7 @@ myYamls = myDir + "yaml_files/"
 names = os.listdir(myYamls)
 dirs = [myYamls + name for name in names]
 
-command = """jobdispatch --condor --env=THEANO_FLAGS=floatX=float32 --duree=48:00:00 --whitespace python %(dir)strain_model.py """ % {"dir":myDir}
+command = """jobdispatch --mem=2000  --condor --env=THEANO_FLAGS=floatX=float32 --duree=48:00:00 --whitespace python %(dir)strain_model.py """ % {"dir":myDir}
 
 command += """\"{{"""
 command += ','.join(dirs)
