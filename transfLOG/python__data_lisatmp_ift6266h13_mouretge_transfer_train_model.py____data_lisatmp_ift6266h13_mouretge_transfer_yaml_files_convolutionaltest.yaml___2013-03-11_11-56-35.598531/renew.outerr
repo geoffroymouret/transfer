@@ -1,0 +1,4 @@
+[DBICondor] 2013-03-11 11:56:42.713269 2001 will renew the lauch file LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionaltest.yaml___2013-03-11_11-56-35.598531/launch.sh each 3600s
+All jobs done.
+[DBICondor] 2013-03-11 12:49:51.125539 2001 condor_wait return code 0
+[DBICondor] 2013-03-11 12:49:51.125625 2001 all condor jobs finished. Exiting

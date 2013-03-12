@@ -1,0 +1,25 @@
+executable     = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionaltest.yaml___2013-03-11_11-56-35.598531/launch.sh
+universe       = vanilla
+requirements   = True&&(Arch == "X86_64")&&(target.CPUS>=1)&&(Memory>=950)&&(False  || (OpSys == "FC14"))
+output         = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionaltest.yaml___2013-03-11_11-56-35.598531/$(Process).out
+error          = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionaltest.yaml___2013-03-11_11-56-35.598531/$(Process).error
+log            = /Tmp/mouretge/dbidispatch/LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionaltest.yaml___2013-03-11_11-56-35.598531/condor.log
+getenv         = False
+nice_user      = False
+notification   = Error
+ImageSize      = 10
+environment    = " THEANO_FLAGS=floatX=float32 OMP_NUM_THREADS=1 GOTO_NUM_THREADS=1 MKL_NUM_THREADS=1 CONDOR_JOB_LOGDIR=LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionaltest.yaml___2013-03-11_11-56-35.598531"
+rank = True
+
+request_memory = 950
+
+request_cpus = 1
+
+stream_error            = True
+stream_output           = True
+transfer_executable     = True
+when_to_transfer_output = ON_EXIT
+arguments    = "'/opt/lisa/os/epd-7.1.2/bin/python /data/lisatmp/ift6266h13/mouretge/transfer/train_model.py /data/lisatmp/ift6266h13/mouretge/transfer/yaml_files/convolutionaltest.yaml'" 
+output       = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionaltest.yaml___2013-03-11_11-56-35.598531/0.out 
+error        = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionaltest.yaml___2013-03-11_11-56-35.598531/0.err 
+queue
