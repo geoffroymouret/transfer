@@ -1,0 +1,3759 @@
+Ticket cache: FILE:/tmp/krb5cc_7719_AQjhSv_condor
+Default principal: mouretge@ADS.IRO.UMONTREAL.CA
+
+Valid starting     Expires            Service principal
+03/13/13 15:26:26  03/14/13 00:57:35  krbtgt/ADS.IRO.UMONTREAL.CA@ADS.IRO.UMONTREAL.CA
+	renew until 04/03/13 12:40:36
+03/13/13 15:50:46  03/14/13 00:57:35  nfs/ocarina.iro.umontreal.ca@ADS.IRO.UMONTREAL.CA
+	renew until 04/03/13 12:40:36
+ulimit cmd: ulimit -v 2560000
+Input shape:  [48, 48]
+Detector space:  [44, 44]
+Output space:  [15, 15]
+Input shape:  [15, 15]
+Detector space:  [11, 11]
+Output space:  [4, 4]
+Parameter and initial learning rate summary:
+	W: 0.00999999977648
+	b: 0.00999999977648
+	W: 0.00999999977648
+	b: 0.00999999977648
+	softmax_b: 0.00999999977648
+	softmax_W: 0.00999999977648
+Compiling sgd_update...
+Compiling sgd_update done. Time elapsed: 0:01:21.420874
+compiling begin_record_entry...
+compiling begin_record_entry done. Time elapsed: 0.591500 seconds
+Monitored channels: 
+	learning_rate
+	momentum
+	train_h0_kernel_norms_max
+	train_h0_kernel_norms_mean
+	train_h0_kernel_norms_min
+	train_h1_kernel_norms_max
+	train_h1_kernel_norms_mean
+	train_h1_kernel_norms_min
+	train_objective
+	train_y_col_norms_max
+	train_y_col_norms_mean
+	train_y_col_norms_min
+	train_y_max_max_class
+	train_y_mean_max_class
+	train_y_min_max_class
+	train_y_misclass
+	train_y_nll
+	train_y_row_norms_max
+	train_y_row_norms_mean
+	train_y_row_norms_min
+	valid_h0_kernel_norms_max
+	valid_h0_kernel_norms_mean
+	valid_h0_kernel_norms_min
+	valid_h1_kernel_norms_max
+	valid_h1_kernel_norms_mean
+	valid_h1_kernel_norms_min
+	valid_objective
+	valid_y_col_norms_max
+	valid_y_col_norms_mean
+	valid_y_col_norms_min
+	valid_y_max_max_class
+	valid_y_mean_max_class
+	valid_y_min_max_class
+	valid_y_misclass
+	valid_y_nll
+	valid_y_row_norms_max
+	valid_y_row_norms_mean
+	valid_y_row_norms_min
+Compiling accum...
+graph size: 123
+graph size: 121
+Compiling accum done. Time elapsed: 31.117118 seconds
+Monitoring step:
+	Epochs seen: 0
+	Batches seen: 0
+	Examples seen: 0
+	learning_rate: 0.01
+	momentum: 0.5
+	train_h0_kernel_norms_max: 0.16649
+	train_h0_kernel_norms_mean: 0.141213
+	train_h0_kernel_norms_min: 0.121113
+	train_h1_kernel_norms_max: 1.18474
+	train_h1_kernel_norms_mean: 1.15763
+	train_h1_kernel_norms_min: 1.12533
+	train_objective: 1.97829
+	train_y_col_norms_max: 1.64766
+	train_y_col_norms_mean: 1.58196
+	train_y_col_norms_min: 1.52935
+	train_y_max_max_class: 0.258025
+	train_y_mean_max_class: 0.189154
+	train_y_min_max_class: 0.154316
+	train_y_misclass: 0.858824
+	train_y_nll: 1.97829
+	train_y_row_norms_max: 0.240758
+	train_y_row_norms_mean: 0.126542
+	train_y_row_norms_min: 0.0384228
+	valid_h0_kernel_norms_max: 0.16649
+	valid_h0_kernel_norms_mean: 0.141213
+	valid_h0_kernel_norms_min: 0.121113
+	valid_h1_kernel_norms_max: 1.18474
+	valid_h1_kernel_norms_mean: 1.15763
+	valid_h1_kernel_norms_min: 1.12533
+	valid_objective: 1.96927
+	valid_y_col_norms_max: 1.64766
+	valid_y_col_norms_mean: 1.58196
+	valid_y_col_norms_min: 1.52935
+	valid_y_max_max_class: 0.253946
+	valid_y_mean_max_class: 0.188752
+	valid_y_min_max_class: 0.15357
+	valid_y_misclass: 0.83
+	valid_y_nll: 1.96927
+	valid_y_row_norms_max: 0.240758
+	valid_y_row_norms_mean: 0.126542
+	valid_y_row_norms_min: 0.0384228
+Time this epoch: 0:03:26.868290
+Monitoring step:
+	Epochs seen: 1
+	Batches seen: 34
+	Examples seen: 3400
+	learning_rate: 0.01
+	momentum: 0.5
+	train_h0_kernel_norms_max: 0.174925
+	train_h0_kernel_norms_mean: 0.142333
+	train_h0_kernel_norms_min: 0.118571
+	train_h1_kernel_norms_max: 1.18469
+	train_h1_kernel_norms_mean: 1.15779
+	train_h1_kernel_norms_min: 1.12412
+	train_objective: 1.81557
+	train_y_col_norms_max: 1.65257
+	train_y_col_norms_mean: 1.58287
+	train_y_col_norms_min: 1.53151
+	train_y_max_max_class: 0.447976
+	train_y_mean_max_class: 0.235953
+	train_y_min_max_class: 0.16176
+	train_y_misclass: 0.632059
+	train_y_nll: 1.81557
+	train_y_row_norms_max: 0.240648
+	train_y_row_norms_mean: 0.126593
+	train_y_row_norms_min: 0.036013
+	valid_h0_kernel_norms_max: 0.174925
+	valid_h0_kernel_norms_mean: 0.142333
+	valid_h0_kernel_norms_min: 0.118571
+	valid_h1_kernel_norms_max: 1.18469
+	valid_h1_kernel_norms_mean: 1.15779
+	valid_h1_kernel_norms_min: 1.12412
+	valid_objective: 1.82255
+	valid_y_col_norms_max: 1.65257
+	valid_y_col_norms_mean: 1.58287
+	valid_y_col_norms_min: 1.53151
+	valid_y_max_max_class: 0.438014
+	valid_y_mean_max_class: 0.235007
+	valid_y_min_max_class: 0.162206
+	valid_y_misclass: 0.625714
+	valid_y_nll: 1.82255
+	valid_y_row_norms_max: 0.240647
+	valid_y_row_norms_mean: 0.126593
+	valid_y_row_norms_min: 0.036013
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.197368 seconds
+Time this epoch: 0:03:11.328186
+Monitoring step:
+	Epochs seen: 2
+	Batches seen: 68
+	Examples seen: 6800
+	learning_rate: 0.01
+	momentum: 0.501968
+	train_h0_kernel_norms_max: 0.189468
+	train_h0_kernel_norms_mean: 0.146298
+	train_h0_kernel_norms_min: 0.12385
+	train_h1_kernel_norms_max: 1.18474
+	train_h1_kernel_norms_mean: 1.15832
+	train_h1_kernel_norms_min: 1.12386
+	train_objective: 1.7385
+	train_y_col_norms_max: 1.66752
+	train_y_col_norms_mean: 1.58623
+	train_y_col_norms_min: 1.53534
+	train_y_max_max_class: 0.610371
+	train_y_mean_max_class: 0.284657
+	train_y_min_max_class: 0.16097
+	train_y_misclass: 0.591471
+	train_y_nll: 1.7385
+	train_y_row_norms_max: 0.241515
+	train_y_row_norms_mean: 0.126847
+	train_y_row_norms_min: 0.0357458
+	valid_h0_kernel_norms_max: 0.189468
+	valid_h0_kernel_norms_mean: 0.146298
+	valid_h0_kernel_norms_min: 0.12385
+	valid_h1_kernel_norms_max: 1.18474
+	valid_h1_kernel_norms_mean: 1.15832
+	valid_h1_kernel_norms_min: 1.12386
+	valid_objective: 1.74664
+	valid_y_col_norms_max: 1.66752
+	valid_y_col_norms_mean: 1.58623
+	valid_y_col_norms_min: 1.53534
+	valid_y_max_max_class: 0.598435
+	valid_y_mean_max_class: 0.283027
+	valid_y_min_max_class: 0.160614
+	valid_y_misclass: 0.591429
+	valid_y_nll: 1.74664
+	valid_y_row_norms_max: 0.241515
+	valid_y_row_norms_mean: 0.126847
+	valid_y_row_norms_min: 0.0357458
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.182197 seconds
+Time this epoch: 0:03:41.249270
+Monitoring step:
+	Epochs seen: 3
+	Batches seen: 102
+	Examples seen: 10200
+	learning_rate: 0.01
+	momentum: 0.503936
+	train_h0_kernel_norms_max: 0.209517
+	train_h0_kernel_norms_mean: 0.152186
+	train_h0_kernel_norms_min: 0.124369
+	train_h1_kernel_norms_max: 1.18486
+	train_h1_kernel_norms_mean: 1.15916
+	train_h1_kernel_norms_min: 1.12384
+	train_objective: 1.64663
+	train_y_col_norms_max: 1.69103
+	train_y_col_norms_mean: 1.59161
+	train_y_col_norms_min: 1.53987
+	train_y_max_max_class: 0.629439
+	train_y_mean_max_class: 0.287085
+	train_y_min_max_class: 0.168298
+	train_y_misclass: 0.533529
+	train_y_nll: 1.64663
+	train_y_row_norms_max: 0.2426
+	train_y_row_norms_mean: 0.127264
+	train_y_row_norms_min: 0.0346471
+	valid_h0_kernel_norms_max: 0.209517
+	valid_h0_kernel_norms_mean: 0.152186
+	valid_h0_kernel_norms_min: 0.124369
+	valid_h1_kernel_norms_max: 1.18486
+	valid_h1_kernel_norms_mean: 1.15916
+	valid_h1_kernel_norms_min: 1.12384
+	valid_objective: 1.65467
+	valid_y_col_norms_max: 1.69103
+	valid_y_col_norms_mean: 1.59161
+	valid_y_col_norms_min: 1.53987
+	valid_y_max_max_class: 0.588951
+	valid_y_mean_max_class: 0.283617
+	valid_y_min_max_class: 0.167549
+	valid_y_misclass: 0.525714
+	valid_y_nll: 1.65467
+	valid_y_row_norms_max: 0.2426
+	valid_y_row_norms_mean: 0.127264
+	valid_y_row_norms_min: 0.0346471
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.191638 seconds
+Time this epoch: 0:03:27.087581
+Monitoring step:
+	Epochs seen: 4
+	Batches seen: 136
+	Examples seen: 13600
+	learning_rate: 0.01
+	momentum: 0.505904
+	train_h0_kernel_norms_max: 0.232708
+	train_h0_kernel_norms_mean: 0.159924
+	train_h0_kernel_norms_min: 0.125322
+	train_h1_kernel_norms_max: 1.18507
+	train_h1_kernel_norms_mean: 1.16035
+	train_h1_kernel_norms_min: 1.12396
+	train_objective: 1.54169
+	train_y_col_norms_max: 1.72044
+	train_y_col_norms_mean: 1.59937
+	train_y_col_norms_min: 1.54847
+	train_y_max_max_class: 0.833377
+	train_y_mean_max_class: 0.353619
+	train_y_min_max_class: 0.181721
+	train_y_misclass: 0.515294
+	train_y_nll: 1.54169
+	train_y_row_norms_max: 0.248217
+	train_y_row_norms_mean: 0.127862
+	train_y_row_norms_min: 0.033767
+	valid_h0_kernel_norms_max: 0.232708
+	valid_h0_kernel_norms_mean: 0.159924
+	valid_h0_kernel_norms_min: 0.125322
+	valid_h1_kernel_norms_max: 1.18507
+	valid_h1_kernel_norms_mean: 1.16036
+	valid_h1_kernel_norms_min: 1.12396
+	valid_objective: 1.55856
+	valid_y_col_norms_max: 1.72044
+	valid_y_col_norms_mean: 1.59937
+	valid_y_col_norms_min: 1.54847
+	valid_y_max_max_class: 0.778577
+	valid_y_mean_max_class: 0.348814
+	valid_y_min_max_class: 0.185858
+	valid_y_misclass: 0.517143
+	valid_y_nll: 1.55856
+	valid_y_row_norms_max: 0.248217
+	valid_y_row_norms_mean: 0.127862
+	valid_y_row_norms_min: 0.033767
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.268454 seconds
+Time this epoch: 0:03:59.155024
+Monitoring step:
+	Epochs seen: 5
+	Batches seen: 170
+	Examples seen: 17000
+	learning_rate: 0.01
+	momentum: 0.507872
+	train_h0_kernel_norms_max: 0.25788
+	train_h0_kernel_norms_mean: 0.167075
+	train_h0_kernel_norms_min: 0.126455
+	train_h1_kernel_norms_max: 1.18536
+	train_h1_kernel_norms_mean: 1.16161
+	train_h1_kernel_norms_min: 1.12422
+	train_objective: 1.45023
+	train_y_col_norms_max: 1.74771
+	train_y_col_norms_mean: 1.60763
+	train_y_col_norms_min: 1.55472
+	train_y_max_max_class: 0.927164
+	train_y_mean_max_class: 0.385445
+	train_y_min_max_class: 0.183941
+	train_y_misclass: 0.493235
+	train_y_nll: 1.45023
+	train_y_row_norms_max: 0.251989
+	train_y_row_norms_mean: 0.128502
+	train_y_row_norms_min: 0.0348344
+	valid_h0_kernel_norms_max: 0.25788
+	valid_h0_kernel_norms_mean: 0.167075
+	valid_h0_kernel_norms_min: 0.126455
+	valid_h1_kernel_norms_max: 1.18536
+	valid_h1_kernel_norms_mean: 1.16161
+	valid_h1_kernel_norms_min: 1.12422
+	valid_objective: 1.46751
+	valid_y_col_norms_max: 1.74771
+	valid_y_col_norms_mean: 1.60763
+	valid_y_col_norms_min: 1.55472
+	valid_y_max_max_class: 0.874759
+	valid_y_mean_max_class: 0.379225
+	valid_y_min_max_class: 0.18844
+	valid_y_misclass: 0.508571
+	valid_y_nll: 1.46751
+	valid_y_row_norms_max: 0.251989
+	valid_y_row_norms_mean: 0.128502
+	valid_y_row_norms_min: 0.0348344
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.169022 seconds
+Time this epoch: 0:03:35.680476
+Monitoring step:
+	Epochs seen: 6
+	Batches seen: 204
+	Examples seen: 20400
+	learning_rate: 0.01
+	momentum: 0.509839
+	train_h0_kernel_norms_max: 0.281771
+	train_h0_kernel_norms_mean: 0.17325
+	train_h0_kernel_norms_min: 0.126041
+	train_h1_kernel_norms_max: 1.19066
+	train_h1_kernel_norms_mean: 1.16277
+	train_h1_kernel_norms_min: 1.12432
+	train_objective: 1.3824
+	train_y_col_norms_max: 1.76916
+	train_y_col_norms_mean: 1.6154
+	train_y_col_norms_min: 1.55696
+	train_y_max_max_class: 0.962191
+	train_y_mean_max_class: 0.438941
+	train_y_min_max_class: 0.186959
+	train_y_misclass: 0.471471
+	train_y_nll: 1.3824
+	train_y_row_norms_max: 0.256416
+	train_y_row_norms_mean: 0.129101
+	train_y_row_norms_min: 0.0346613
+	valid_h0_kernel_norms_max: 0.281771
+	valid_h0_kernel_norms_mean: 0.17325
+	valid_h0_kernel_norms_min: 0.126041
+	valid_h1_kernel_norms_max: 1.19066
+	valid_h1_kernel_norms_mean: 1.16277
+	valid_h1_kernel_norms_min: 1.12432
+	valid_objective: 1.40907
+	valid_y_col_norms_max: 1.76916
+	valid_y_col_norms_mean: 1.6154
+	valid_y_col_norms_min: 1.55696
+	valid_y_max_max_class: 0.926007
+	valid_y_mean_max_class: 0.429778
+	valid_y_min_max_class: 0.188143
+	valid_y_misclass: 0.481429
+	valid_y_nll: 1.40907
+	valid_y_row_norms_max: 0.256416
+	valid_y_row_norms_mean: 0.129101
+	valid_y_row_norms_min: 0.0346613
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.190956 seconds
+Time this epoch: 0:03:29.775527
+Monitoring step:
+	Epochs seen: 7
+	Batches seen: 238
+	Examples seen: 23800
+	learning_rate: 0.01
+	momentum: 0.511807
+	train_h0_kernel_norms_max: 0.302353
+	train_h0_kernel_norms_mean: 0.17881
+	train_h0_kernel_norms_min: 0.125367
+	train_h1_kernel_norms_max: 1.19466
+	train_h1_kernel_norms_mean: 1.16386
+	train_h1_kernel_norms_min: 1.12472
+	train_objective: 1.34465
+	train_y_col_norms_max: 1.78845
+	train_y_col_norms_mean: 1.62291
+	train_y_col_norms_min: 1.5612
+	train_y_max_max_class: 0.982924
+	train_y_mean_max_class: 0.471989
+	train_y_min_max_class: 0.189454
+	train_y_misclass: 0.478824
+	train_y_nll: 1.34465
+	train_y_row_norms_max: 0.258267
+	train_y_row_norms_mean: 0.129669
+	train_y_row_norms_min: 0.034703
+	valid_h0_kernel_norms_max: 0.302353
+	valid_h0_kernel_norms_mean: 0.17881
+	valid_h0_kernel_norms_min: 0.125367
+	valid_h1_kernel_norms_max: 1.19466
+	valid_h1_kernel_norms_mean: 1.16386
+	valid_h1_kernel_norms_min: 1.12471
+	valid_objective: 1.38621
+	valid_y_col_norms_max: 1.78845
+	valid_y_col_norms_mean: 1.62291
+	valid_y_col_norms_min: 1.5612
+	valid_y_max_max_class: 0.957175
+	valid_y_mean_max_class: 0.46404
+	valid_y_min_max_class: 0.189632
+	valid_y_misclass: 0.52
+	valid_y_nll: 1.38621
+	valid_y_row_norms_max: 0.258267
+	valid_y_row_norms_mean: 0.129669
+	valid_y_row_norms_min: 0.034703
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.250970 seconds
+Time this epoch: 0:03:13.465593
+Monitoring step:
+	Epochs seen: 8
+	Batches seen: 272
+	Examples seen: 27200
+	learning_rate: 0.01
+	momentum: 0.513775
+	train_h0_kernel_norms_max: 0.316134
+	train_h0_kernel_norms_mean: 0.182019
+	train_h0_kernel_norms_min: 0.125654
+	train_h1_kernel_norms_max: 1.19863
+	train_h1_kernel_norms_mean: 1.16465
+	train_h1_kernel_norms_min: 1.12492
+	train_objective: 1.30485
+	train_y_col_norms_max: 1.80251
+	train_y_col_norms_mean: 1.62892
+	train_y_col_norms_min: 1.5626
+	train_y_max_max_class: 0.988168
+	train_y_mean_max_class: 0.48282
+	train_y_min_max_class: 0.189895
+	train_y_misclass: 0.456177
+	train_y_nll: 1.30485
+	train_y_row_norms_max: 0.260536
+	train_y_row_norms_mean: 0.130124
+	train_y_row_norms_min: 0.0348044
+	valid_h0_kernel_norms_max: 0.316134
+	valid_h0_kernel_norms_mean: 0.182019
+	valid_h0_kernel_norms_min: 0.125654
+	valid_h1_kernel_norms_max: 1.19863
+	valid_h1_kernel_norms_mean: 1.16465
+	valid_h1_kernel_norms_min: 1.12492
+	valid_objective: 1.34105
+	valid_y_col_norms_max: 1.80251
+	valid_y_col_norms_mean: 1.62892
+	valid_y_col_norms_min: 1.5626
+	valid_y_max_max_class: 0.969851
+	valid_y_mean_max_class: 0.472108
+	valid_y_min_max_class: 0.194146
+	valid_y_misclass: 0.462857
+	valid_y_nll: 1.34105
+	valid_y_row_norms_max: 0.260536
+	valid_y_row_norms_mean: 0.130124
+	valid_y_row_norms_min: 0.0348044
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.175109 seconds
+Time this epoch: 0:03:21.397950
+Monitoring step:
+	Epochs seen: 9
+	Batches seen: 306
+	Examples seen: 30600
+	learning_rate: 0.01
+	momentum: 0.515743
+	train_h0_kernel_norms_max: 0.33194
+	train_h0_kernel_norms_mean: 0.185869
+	train_h0_kernel_norms_min: 0.126394
+	train_h1_kernel_norms_max: 1.20125
+	train_h1_kernel_norms_mean: 1.16553
+	train_h1_kernel_norms_min: 1.12511
+	train_objective: 1.27095
+	train_y_col_norms_max: 1.81547
+	train_y_col_norms_mean: 1.63527
+	train_y_col_norms_min: 1.56599
+	train_y_max_max_class: 0.98859
+	train_y_mean_max_class: 0.481381
+	train_y_min_max_class: 0.191707
+	train_y_misclass: 0.446471
+	train_y_nll: 1.27095
+	train_y_row_norms_max: 0.263699
+	train_y_row_norms_mean: 0.130607
+	train_y_row_norms_min: 0.035572
+	valid_h0_kernel_norms_max: 0.33194
+	valid_h0_kernel_norms_mean: 0.185869
+	valid_h0_kernel_norms_min: 0.126394
+	valid_h1_kernel_norms_max: 1.20125
+	valid_h1_kernel_norms_mean: 1.16553
+	valid_h1_kernel_norms_min: 1.12511
+	valid_objective: 1.31258
+	valid_y_col_norms_max: 1.81547
+	valid_y_col_norms_mean: 1.63527
+	valid_y_col_norms_min: 1.56599
+	valid_y_max_max_class: 0.969275
+	valid_y_mean_max_class: 0.470345
+	valid_y_min_max_class: 0.192623
+	valid_y_misclass: 0.47
+	valid_y_nll: 1.31258
+	valid_y_row_norms_max: 0.263699
+	valid_y_row_norms_mean: 0.130607
+	valid_y_row_norms_min: 0.035572
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.219363 seconds
+Time this epoch: 0:03:09.149279
+Monitoring step:
+	Epochs seen: 10
+	Batches seen: 340
+	Examples seen: 34000
+	learning_rate: 0.01
+	momentum: 0.517711
+	train_h0_kernel_norms_max: 0.344455
+	train_h0_kernel_norms_mean: 0.190099
+	train_h0_kernel_norms_min: 0.125928
+	train_h1_kernel_norms_max: 1.20321
+	train_h1_kernel_norms_mean: 1.1665
+	train_h1_kernel_norms_min: 1.12545
+	train_objective: 1.23545
+	train_y_col_norms_max: 1.82781
+	train_y_col_norms_mean: 1.64211
+	train_y_col_norms_min: 1.56991
+	train_y_max_max_class: 0.993544
+	train_y_mean_max_class: 0.482852
+	train_y_min_max_class: 0.186444
+	train_y_misclass: 0.425588
+	train_y_nll: 1.23545
+	train_y_row_norms_max: 0.268264
+	train_y_row_norms_mean: 0.131124
+	train_y_row_norms_min: 0.0359196
+	valid_h0_kernel_norms_max: 0.344455
+	valid_h0_kernel_norms_mean: 0.190099
+	valid_h0_kernel_norms_min: 0.125928
+	valid_h1_kernel_norms_max: 1.20321
+	valid_h1_kernel_norms_mean: 1.1665
+	valid_h1_kernel_norms_min: 1.12545
+	valid_objective: 1.2776
+	valid_y_col_norms_max: 1.82781
+	valid_y_col_norms_mean: 1.64211
+	valid_y_col_norms_min: 1.56991
+	valid_y_max_max_class: 0.982284
+	valid_y_mean_max_class: 0.470453
+	valid_y_min_max_class: 0.198854
+	valid_y_misclass: 0.455714
+	valid_y_nll: 1.2776
+	valid_y_row_norms_max: 0.268264
+	valid_y_row_norms_mean: 0.131124
+	valid_y_row_norms_min: 0.0359196
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.205590 seconds
+Time this epoch: 0:03:09.374505
+Monitoring step:
+	Epochs seen: 11
+	Batches seen: 374
+	Examples seen: 37400
+	learning_rate: 0.01
+	momentum: 0.519679
+	train_h0_kernel_norms_max: 0.357963
+	train_h0_kernel_norms_mean: 0.193215
+	train_h0_kernel_norms_min: 0.126452
+	train_h1_kernel_norms_max: 1.20556
+	train_h1_kernel_norms_mean: 1.16731
+	train_h1_kernel_norms_min: 1.12566
+	train_objective: 1.21275
+	train_y_col_norms_max: 1.83936
+	train_y_col_norms_mean: 1.64837
+	train_y_col_norms_min: 1.572
+	train_y_max_max_class: 0.991207
+	train_y_mean_max_class: 0.478737
+	train_y_min_max_class: 0.203802
+	train_y_misclass: 0.396765
+	train_y_nll: 1.21275
+	train_y_row_norms_max: 0.271673
+	train_y_row_norms_mean: 0.131603
+	train_y_row_norms_min: 0.0369422
+	valid_h0_kernel_norms_max: 0.357963
+	valid_h0_kernel_norms_mean: 0.193215
+	valid_h0_kernel_norms_min: 0.126452
+	valid_h1_kernel_norms_max: 1.20556
+	valid_h1_kernel_norms_mean: 1.16731
+	valid_h1_kernel_norms_min: 1.12566
+	valid_objective: 1.25014
+	valid_y_col_norms_max: 1.83936
+	valid_y_col_norms_mean: 1.64837
+	valid_y_col_norms_min: 1.572
+	valid_y_max_max_class: 0.976909
+	valid_y_mean_max_class: 0.467975
+	valid_y_min_max_class: 0.204594
+	valid_y_misclass: 0.418571
+	valid_y_nll: 1.25014
+	valid_y_row_norms_max: 0.271673
+	valid_y_row_norms_mean: 0.131603
+	valid_y_row_norms_min: 0.0369422
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.183486 seconds
+Time this epoch: 0:03:26.893725
+Monitoring step:
+	Epochs seen: 12
+	Batches seen: 408
+	Examples seen: 40800
+	learning_rate: 0.01
+	momentum: 0.521646
+	train_h0_kernel_norms_max: 0.364556
+	train_h0_kernel_norms_mean: 0.197036
+	train_h0_kernel_norms_min: 0.124751
+	train_h1_kernel_norms_max: 1.20711
+	train_h1_kernel_norms_mean: 1.16825
+	train_h1_kernel_norms_min: 1.12593
+	train_objective: 1.18687
+	train_y_col_norms_max: 1.85171
+	train_y_col_norms_mean: 1.65533
+	train_y_col_norms_min: 1.57569
+	train_y_max_max_class: 0.994477
+	train_y_mean_max_class: 0.500617
+	train_y_min_max_class: 0.19612
+	train_y_misclass: 0.411471
+	train_y_nll: 1.18687
+	train_y_row_norms_max: 0.278137
+	train_y_row_norms_mean: 0.132124
+	train_y_row_norms_min: 0.0385618
+	valid_h0_kernel_norms_max: 0.364556
+	valid_h0_kernel_norms_mean: 0.197036
+	valid_h0_kernel_norms_min: 0.124751
+	valid_h1_kernel_norms_max: 1.20711
+	valid_h1_kernel_norms_mean: 1.16825
+	valid_h1_kernel_norms_min: 1.12593
+	valid_objective: 1.23822
+	valid_y_col_norms_max: 1.85171
+	valid_y_col_norms_mean: 1.65533
+	valid_y_col_norms_min: 1.57569
+	valid_y_max_max_class: 0.98803
+	valid_y_mean_max_class: 0.48754
+	valid_y_min_max_class: 0.192697
+	valid_y_misclass: 0.422857
+	valid_y_nll: 1.23822
+	valid_y_row_norms_max: 0.278137
+	valid_y_row_norms_mean: 0.132124
+	valid_y_row_norms_min: 0.0385618
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.247172 seconds
+Time this epoch: 0:03:16.517379
+Monitoring step:
+	Epochs seen: 13
+	Batches seen: 442
+	Examples seen: 44200
+	learning_rate: 0.01
+	momentum: 0.523614
+	train_h0_kernel_norms_max: 0.380728
+	train_h0_kernel_norms_mean: 0.200542
+	train_h0_kernel_norms_min: 0.124734
+	train_h1_kernel_norms_max: 1.21076
+	train_h1_kernel_norms_mean: 1.16917
+	train_h1_kernel_norms_min: 1.12623
+	train_objective: 1.17031
+	train_y_col_norms_max: 1.86047
+	train_y_col_norms_mean: 1.66183
+	train_y_col_norms_min: 1.57796
+	train_y_max_max_class: 0.993744
+	train_y_mean_max_class: 0.559205
+	train_y_min_max_class: 0.214434
+	train_y_misclass: 0.409412
+	train_y_nll: 1.17031
+	train_y_row_norms_max: 0.282285
+	train_y_row_norms_mean: 0.132625
+	train_y_row_norms_min: 0.0387455
+	valid_h0_kernel_norms_max: 0.380728
+	valid_h0_kernel_norms_mean: 0.200542
+	valid_h0_kernel_norms_min: 0.124734
+	valid_h1_kernel_norms_max: 1.21076
+	valid_h1_kernel_norms_mean: 1.16917
+	valid_h1_kernel_norms_min: 1.12623
+	valid_objective: 1.21275
+	valid_y_col_norms_max: 1.86047
+	valid_y_col_norms_mean: 1.66183
+	valid_y_col_norms_min: 1.57796
+	valid_y_max_max_class: 0.985425
+	valid_y_mean_max_class: 0.550273
+	valid_y_min_max_class: 0.22682
+	valid_y_misclass: 0.431429
+	valid_y_nll: 1.21275
+	valid_y_row_norms_max: 0.282285
+	valid_y_row_norms_mean: 0.132625
+	valid_y_row_norms_min: 0.0387455
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.191706 seconds
+Time this epoch: 0:03:19.158546
+Monitoring step:
+	Epochs seen: 14
+	Batches seen: 476
+	Examples seen: 47600
+	learning_rate: 0.01
+	momentum: 0.525582
+	train_h0_kernel_norms_max: 0.392387
+	train_h0_kernel_norms_mean: 0.204359
+	train_h0_kernel_norms_min: 0.125348
+	train_h1_kernel_norms_max: 1.21314
+	train_h1_kernel_norms_mean: 1.17016
+	train_h1_kernel_norms_min: 1.12684
+	train_objective: 1.13886
+	train_y_col_norms_max: 1.87105
+	train_y_col_norms_mean: 1.66884
+	train_y_col_norms_min: 1.58078
+	train_y_max_max_class: 0.996287
+	train_y_mean_max_class: 0.510968
+	train_y_min_max_class: 0.209481
+	train_y_misclass: 0.395588
+	train_y_nll: 1.13886
+	train_y_row_norms_max: 0.28703
+	train_y_row_norms_mean: 0.133151
+	train_y_row_norms_min: 0.0385658
+	valid_h0_kernel_norms_max: 0.392388
+	valid_h0_kernel_norms_mean: 0.204358
+	valid_h0_kernel_norms_min: 0.125348
+	valid_h1_kernel_norms_max: 1.21314
+	valid_h1_kernel_norms_mean: 1.17016
+	valid_h1_kernel_norms_min: 1.12684
+	valid_objective: 1.18739
+	valid_y_col_norms_max: 1.87105
+	valid_y_col_norms_mean: 1.66884
+	valid_y_col_norms_min: 1.58078
+	valid_y_max_max_class: 0.989892
+	valid_y_mean_max_class: 0.496918
+	valid_y_min_max_class: 0.206577
+	valid_y_misclass: 0.418571
+	valid_y_nll: 1.18739
+	valid_y_row_norms_max: 0.28703
+	valid_y_row_norms_mean: 0.133152
+	valid_y_row_norms_min: 0.0385658
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.240456 seconds
+Time this epoch: 0:03:26.188787
+Monitoring step:
+	Epochs seen: 15
+	Batches seen: 510
+	Examples seen: 51000
+	learning_rate: 0.01
+	momentum: 0.52755
+	train_h0_kernel_norms_max: 0.404192
+	train_h0_kernel_norms_mean: 0.207859
+	train_h0_kernel_norms_min: 0.124222
+	train_h1_kernel_norms_max: 1.21458
+	train_h1_kernel_norms_mean: 1.1711
+	train_h1_kernel_norms_min: 1.12748
+	train_objective: 1.10513
+	train_y_col_norms_max: 1.87855
+	train_y_col_norms_mean: 1.67571
+	train_y_col_norms_min: 1.58497
+	train_y_max_max_class: 0.997603
+	train_y_mean_max_class: 0.547337
+	train_y_min_max_class: 0.212963
+	train_y_misclass: 0.376471
+	train_y_nll: 1.10513
+	train_y_row_norms_max: 0.29045
+	train_y_row_norms_mean: 0.133669
+	train_y_row_norms_min: 0.0391419
+	valid_h0_kernel_norms_max: 0.404192
+	valid_h0_kernel_norms_mean: 0.207859
+	valid_h0_kernel_norms_min: 0.124222
+	valid_h1_kernel_norms_max: 1.21458
+	valid_h1_kernel_norms_mean: 1.1711
+	valid_h1_kernel_norms_min: 1.12748
+	valid_objective: 1.13893
+	valid_y_col_norms_max: 1.87855
+	valid_y_col_norms_mean: 1.67571
+	valid_y_col_norms_min: 1.58497
+	valid_y_max_max_class: 0.990678
+	valid_y_mean_max_class: 0.536732
+	valid_y_min_max_class: 0.214668
+	valid_y_misclass: 0.391429
+	valid_y_nll: 1.13893
+	valid_y_row_norms_max: 0.29045
+	valid_y_row_norms_mean: 0.133669
+	valid_y_row_norms_min: 0.0391419
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.211060 seconds
+Time this epoch: 0:03:17.032200
+Monitoring step:
+	Epochs seen: 16
+	Batches seen: 544
+	Examples seen: 54400
+	learning_rate: 0.01
+	momentum: 0.529518
+	train_h0_kernel_norms_max: 0.419054
+	train_h0_kernel_norms_mean: 0.211658
+	train_h0_kernel_norms_min: 0.12478
+	train_h1_kernel_norms_max: 1.21656
+	train_h1_kernel_norms_mean: 1.17211
+	train_h1_kernel_norms_min: 1.12818
+	train_objective: 1.07094
+	train_y_col_norms_max: 1.88866
+	train_y_col_norms_mean: 1.68274
+	train_y_col_norms_min: 1.58931
+	train_y_max_max_class: 0.996691
+	train_y_mean_max_class: 0.559653
+	train_y_min_max_class: 0.216165
+	train_y_misclass: 0.367353
+	train_y_nll: 1.07094
+	train_y_row_norms_max: 0.294119
+	train_y_row_norms_mean: 0.134196
+	train_y_row_norms_min: 0.0391025
+	valid_h0_kernel_norms_max: 0.419054
+	valid_h0_kernel_norms_mean: 0.211658
+	valid_h0_kernel_norms_min: 0.12478
+	valid_h1_kernel_norms_max: 1.21656
+	valid_h1_kernel_norms_mean: 1.17211
+	valid_h1_kernel_norms_min: 1.12818
+	valid_objective: 1.11907
+	valid_y_col_norms_max: 1.88866
+	valid_y_col_norms_mean: 1.68274
+	valid_y_col_norms_min: 1.58931
+	valid_y_max_max_class: 0.987903
+	valid_y_mean_max_class: 0.549065
+	valid_y_min_max_class: 0.213287
+	valid_y_misclass: 0.39
+	valid_y_nll: 1.11907
+	valid_y_row_norms_max: 0.294119
+	valid_y_row_norms_mean: 0.134196
+	valid_y_row_norms_min: 0.0391025
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.180989 seconds
+Time this epoch: 0:03:26.147284
+Monitoring step:
+	Epochs seen: 17
+	Batches seen: 578
+	Examples seen: 57800
+	learning_rate: 0.01
+	momentum: 0.531486
+	train_h0_kernel_norms_max: 0.425906
+	train_h0_kernel_norms_mean: 0.215044
+	train_h0_kernel_norms_min: 0.124556
+	train_h1_kernel_norms_max: 1.21918
+	train_h1_kernel_norms_mean: 1.17306
+	train_h1_kernel_norms_min: 1.12882
+	train_objective: 1.06769
+	train_y_col_norms_max: 1.895
+	train_y_col_norms_mean: 1.68946
+	train_y_col_norms_min: 1.59324
+	train_y_max_max_class: 0.996055
+	train_y_mean_max_class: 0.574957
+	train_y_min_max_class: 0.213507
+	train_y_misclass: 0.377059
+	train_y_nll: 1.06769
+	train_y_row_norms_max: 0.299271
+	train_y_row_norms_mean: 0.134715
+	train_y_row_norms_min: 0.0392966
+	valid_h0_kernel_norms_max: 0.425906
+	valid_h0_kernel_norms_mean: 0.215044
+	valid_h0_kernel_norms_min: 0.124556
+	valid_h1_kernel_norms_max: 1.21918
+	valid_h1_kernel_norms_mean: 1.17306
+	valid_h1_kernel_norms_min: 1.12882
+	valid_objective: 1.1224
+	valid_y_col_norms_max: 1.895
+	valid_y_col_norms_mean: 1.68946
+	valid_y_col_norms_min: 1.59324
+	valid_y_max_max_class: 0.985174
+	valid_y_mean_max_class: 0.56625
+	valid_y_min_max_class: 0.208428
+	valid_y_misclass: 0.392857
+	valid_y_nll: 1.1224
+	valid_y_row_norms_max: 0.299271
+	valid_y_row_norms_mean: 0.134715
+	valid_y_row_norms_min: 0.0392966
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.225179 seconds
+Time this epoch: 0:03:36.618629
+Monitoring step:
+	Epochs seen: 18
+	Batches seen: 612
+	Examples seen: 61200
+	learning_rate: 0.01
+	momentum: 0.533454
+	train_h0_kernel_norms_max: 0.437075
+	train_h0_kernel_norms_mean: 0.218508
+	train_h0_kernel_norms_min: 0.125042
+	train_h1_kernel_norms_max: 1.22186
+	train_h1_kernel_norms_mean: 1.17407
+	train_h1_kernel_norms_min: 1.12961
+	train_objective: 1.02064
+	train_y_col_norms_max: 1.9049
+	train_y_col_norms_mean: 1.69642
+	train_y_col_norms_min: 1.59776
+	train_y_max_max_class: 0.996387
+	train_y_mean_max_class: 0.555978
+	train_y_min_max_class: 0.219861
+	train_y_misclass: 0.345
+	train_y_nll: 1.02064
+	train_y_row_norms_max: 0.300197
+	train_y_row_norms_mean: 0.135235
+	train_y_row_norms_min: 0.0387296
+	valid_h0_kernel_norms_max: 0.437075
+	valid_h0_kernel_norms_mean: 0.218508
+	valid_h0_kernel_norms_min: 0.125042
+	valid_h1_kernel_norms_max: 1.22186
+	valid_h1_kernel_norms_mean: 1.17407
+	valid_h1_kernel_norms_min: 1.12961
+	valid_objective: 1.0725
+	valid_y_col_norms_max: 1.9049
+	valid_y_col_norms_mean: 1.69642
+	valid_y_col_norms_min: 1.59776
+	valid_y_max_max_class: 0.986617
+	valid_y_mean_max_class: 0.542447
+	valid_y_min_max_class: 0.212873
+	valid_y_misclass: 0.37
+	valid_y_nll: 1.0725
+	valid_y_row_norms_max: 0.300197
+	valid_y_row_norms_mean: 0.135235
+	valid_y_row_norms_min: 0.0387296
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.192746 seconds
+Time this epoch: 0:03:23.774465
+Monitoring step:
+	Epochs seen: 19
+	Batches seen: 646
+	Examples seen: 64600
+	learning_rate: 0.01
+	momentum: 0.535422
+	train_h0_kernel_norms_max: 0.450455
+	train_h0_kernel_norms_mean: 0.222924
+	train_h0_kernel_norms_min: 0.12605
+	train_h1_kernel_norms_max: 1.22579
+	train_h1_kernel_norms_mean: 1.1753
+	train_h1_kernel_norms_min: 1.13032
+	train_objective: 1.01667
+	train_y_col_norms_max: 1.91672
+	train_y_col_norms_mean: 1.70467
+	train_y_col_norms_min: 1.60168
+	train_y_max_max_class: 0.997946
+	train_y_mean_max_class: 0.598812
+	train_y_min_max_class: 0.217573
+	train_y_misclass: 0.354412
+	train_y_nll: 1.01667
+	train_y_row_norms_max: 0.303288
+	train_y_row_norms_mean: 0.13586
+	train_y_row_norms_min: 0.0396629
+	valid_h0_kernel_norms_max: 0.450456
+	valid_h0_kernel_norms_mean: 0.222924
+	valid_h0_kernel_norms_min: 0.12605
+	valid_h1_kernel_norms_max: 1.22579
+	valid_h1_kernel_norms_mean: 1.1753
+	valid_h1_kernel_norms_min: 1.13032
+	valid_objective: 1.07566
+	valid_y_col_norms_max: 1.91672
+	valid_y_col_norms_mean: 1.70467
+	valid_y_col_norms_min: 1.60168
+	valid_y_max_max_class: 0.993338
+	valid_y_mean_max_class: 0.586995
+	valid_y_min_max_class: 0.22415
+	valid_y_misclass: 0.381429
+	valid_y_nll: 1.07566
+	valid_y_row_norms_max: 0.303288
+	valid_y_row_norms_mean: 0.13586
+	valid_y_row_norms_min: 0.0396629
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.535804 seconds
+Time this epoch: 0:03:18.218564
+Monitoring step:
+	Epochs seen: 20
+	Batches seen: 680
+	Examples seen: 68000
+	learning_rate: 0.01
+	momentum: 0.53739
+	train_h0_kernel_norms_max: 0.454872
+	train_h0_kernel_norms_mean: 0.2257
+	train_h0_kernel_norms_min: 0.127288
+	train_h1_kernel_norms_max: 1.22742
+	train_h1_kernel_norms_mean: 1.17617
+	train_h1_kernel_norms_min: 1.13157
+	train_objective: 0.989322
+	train_y_col_norms_max: 1.92311
+	train_y_col_norms_mean: 1.71084
+	train_y_col_norms_min: 1.60533
+	train_y_max_max_class: 0.998178
+	train_y_mean_max_class: 0.589117
+	train_y_min_max_class: 0.215865
+	train_y_misclass: 0.332647
+	train_y_nll: 0.989322
+	train_y_row_norms_max: 0.307047
+	train_y_row_norms_mean: 0.136325
+	train_y_row_norms_min: 0.0397486
+	valid_h0_kernel_norms_max: 0.454873
+	valid_h0_kernel_norms_mean: 0.2257
+	valid_h0_kernel_norms_min: 0.127288
+	valid_h1_kernel_norms_max: 1.22742
+	valid_h1_kernel_norms_mean: 1.17616
+	valid_h1_kernel_norms_min: 1.13157
+	valid_objective: 1.04684
+	valid_y_col_norms_max: 1.92311
+	valid_y_col_norms_mean: 1.71084
+	valid_y_col_norms_min: 1.60533
+	valid_y_max_max_class: 0.988298
+	valid_y_mean_max_class: 0.577319
+	valid_y_min_max_class: 0.201725
+	valid_y_misclass: 0.36
+	valid_y_nll: 1.04684
+	valid_y_row_norms_max: 0.307047
+	valid_y_row_norms_mean: 0.136325
+	valid_y_row_norms_min: 0.0397486
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.204776 seconds
+Time this epoch: 0:03:30.140842
+Monitoring step:
+	Epochs seen: 21
+	Batches seen: 714
+	Examples seen: 71400
+	learning_rate: 0.01
+	momentum: 0.539357
+	train_h0_kernel_norms_max: 0.464866
+	train_h0_kernel_norms_mean: 0.228882
+	train_h0_kernel_norms_min: 0.128318
+	train_h1_kernel_norms_max: 1.22953
+	train_h1_kernel_norms_mean: 1.17719
+	train_h1_kernel_norms_min: 1.13236
+	train_objective: 0.989973
+	train_y_col_norms_max: 1.93071
+	train_y_col_norms_mean: 1.71786
+	train_y_col_norms_min: 1.60964
+	train_y_max_max_class: 0.993553
+	train_y_mean_max_class: 0.582802
+	train_y_min_max_class: 0.226427
+	train_y_misclass: 0.338235
+	train_y_nll: 0.989973
+	train_y_row_norms_max: 0.308023
+	train_y_row_norms_mean: 0.136858
+	train_y_row_norms_min: 0.0394923
+	valid_h0_kernel_norms_max: 0.464866
+	valid_h0_kernel_norms_mean: 0.228882
+	valid_h0_kernel_norms_min: 0.128318
+	valid_h1_kernel_norms_max: 1.22953
+	valid_h1_kernel_norms_mean: 1.17719
+	valid_h1_kernel_norms_min: 1.13235
+	valid_objective: 1.04916
+	valid_y_col_norms_max: 1.93071
+	valid_y_col_norms_mean: 1.71786
+	valid_y_col_norms_min: 1.60964
+	valid_y_max_max_class: 0.982743
+	valid_y_mean_max_class: 0.568543
+	valid_y_min_max_class: 0.22874
+	valid_y_misclass: 0.392857
+	valid_y_nll: 1.04916
+	valid_y_row_norms_max: 0.308023
+	valid_y_row_norms_mean: 0.136858
+	valid_y_row_norms_min: 0.0394923
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.340229 seconds
+Time this epoch: 0:03:25.377017
+Monitoring step:
+	Epochs seen: 22
+	Batches seen: 748
+	Examples seen: 74800
+	learning_rate: 0.01
+	momentum: 0.541325
+	train_h0_kernel_norms_max: 0.475944
+	train_h0_kernel_norms_mean: 0.232488
+	train_h0_kernel_norms_min: 0.130378
+	train_h1_kernel_norms_max: 1.23299
+	train_h1_kernel_norms_mean: 1.17829
+	train_h1_kernel_norms_min: 1.13349
+	train_objective: 0.960449
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.72476
+	train_y_col_norms_min: 1.61281
+	train_y_max_max_class: 0.998734
+	train_y_mean_max_class: 0.598664
+	train_y_min_max_class: 0.222009
+	train_y_misclass: 0.331471
+	train_y_nll: 0.960449
+	train_y_row_norms_max: 0.313015
+	train_y_row_norms_mean: 0.137362
+	train_y_row_norms_min: 0.0397217
+	valid_h0_kernel_norms_max: 0.475945
+	valid_h0_kernel_norms_mean: 0.232488
+	valid_h0_kernel_norms_min: 0.130378
+	valid_h1_kernel_norms_max: 1.23299
+	valid_h1_kernel_norms_mean: 1.17829
+	valid_h1_kernel_norms_min: 1.13349
+	valid_objective: 1.01536
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.72476
+	valid_y_col_norms_min: 1.61281
+	valid_y_max_max_class: 0.990419
+	valid_y_mean_max_class: 0.583886
+	valid_y_min_max_class: 0.210953
+	valid_y_misclass: 0.345714
+	valid_y_nll: 1.01536
+	valid_y_row_norms_max: 0.313015
+	valid_y_row_norms_mean: 0.137362
+	valid_y_row_norms_min: 0.0397217
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.180745 seconds
+Time this epoch: 0:03:20.892093
+Monitoring step:
+	Epochs seen: 23
+	Batches seen: 782
+	Examples seen: 78200
+	learning_rate: 0.01
+	momentum: 0.543293
+	train_h0_kernel_norms_max: 0.480272
+	train_h0_kernel_norms_mean: 0.235899
+	train_h0_kernel_norms_min: 0.131694
+	train_h1_kernel_norms_max: 1.23463
+	train_h1_kernel_norms_mean: 1.17937
+	train_h1_kernel_norms_min: 1.13498
+	train_objective: 0.938238
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.73057
+	train_y_col_norms_min: 1.61728
+	train_y_max_max_class: 0.997062
+	train_y_mean_max_class: 0.571213
+	train_y_min_max_class: 0.224064
+	train_y_misclass: 0.303235
+	train_y_nll: 0.938238
+	train_y_row_norms_max: 0.315379
+	train_y_row_norms_mean: 0.137794
+	train_y_row_norms_min: 0.0393718
+	valid_h0_kernel_norms_max: 0.480272
+	valid_h0_kernel_norms_mean: 0.235899
+	valid_h0_kernel_norms_min: 0.131694
+	valid_h1_kernel_norms_max: 1.23463
+	valid_h1_kernel_norms_mean: 1.17937
+	valid_h1_kernel_norms_min: 1.13498
+	valid_objective: 0.995902
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.73057
+	valid_y_col_norms_min: 1.61728
+	valid_y_max_max_class: 0.986423
+	valid_y_mean_max_class: 0.550962
+	valid_y_min_max_class: 0.218228
+	valid_y_misclass: 0.34
+	valid_y_nll: 0.995902
+	valid_y_row_norms_max: 0.315379
+	valid_y_row_norms_mean: 0.137794
+	valid_y_row_norms_min: 0.0393718
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.234527 seconds
+Time this epoch: 0:03:35.289632
+Monitoring step:
+	Epochs seen: 24
+	Batches seen: 816
+	Examples seen: 81600
+	learning_rate: 0.01
+	momentum: 0.545261
+	train_h0_kernel_norms_max: 0.48844
+	train_h0_kernel_norms_mean: 0.239406
+	train_h0_kernel_norms_min: 0.133725
+	train_h1_kernel_norms_max: 1.23538
+	train_h1_kernel_norms_mean: 1.18053
+	train_h1_kernel_norms_min: 1.13699
+	train_objective: 0.93367
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.73649
+	train_y_col_norms_min: 1.62287
+	train_y_max_max_class: 0.998805
+	train_y_mean_max_class: 0.604853
+	train_y_min_max_class: 0.221251
+	train_y_misclass: 0.307647
+	train_y_nll: 0.93367
+	train_y_row_norms_max: 0.31717
+	train_y_row_norms_mean: 0.138221
+	train_y_row_norms_min: 0.0391906
+	valid_h0_kernel_norms_max: 0.48844
+	valid_h0_kernel_norms_mean: 0.239406
+	valid_h0_kernel_norms_min: 0.133725
+	valid_h1_kernel_norms_max: 1.23538
+	valid_h1_kernel_norms_mean: 1.18052
+	valid_h1_kernel_norms_min: 1.13699
+	valid_objective: 0.98645
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.73649
+	valid_y_col_norms_min: 1.62287
+	valid_y_max_max_class: 0.992143
+	valid_y_mean_max_class: 0.59055
+	valid_y_min_max_class: 0.230159
+	valid_y_misclass: 0.351429
+	valid_y_nll: 0.98645
+	valid_y_row_norms_max: 0.31717
+	valid_y_row_norms_mean: 0.138221
+	valid_y_row_norms_min: 0.0391906
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.207268 seconds
+Time this epoch: 0:03:31.022323
+Monitoring step:
+	Epochs seen: 25
+	Batches seen: 850
+	Examples seen: 85000
+	learning_rate: 0.01
+	momentum: 0.547229
+	train_h0_kernel_norms_max: 0.500508
+	train_h0_kernel_norms_mean: 0.242883
+	train_h0_kernel_norms_min: 0.135171
+	train_h1_kernel_norms_max: 1.23776
+	train_h1_kernel_norms_mean: 1.18164
+	train_h1_kernel_norms_min: 1.13813
+	train_objective: 0.942628
+	train_y_col_norms_max: 1.93625
+	train_y_col_norms_mean: 1.74296
+	train_y_col_norms_min: 1.62799
+	train_y_max_max_class: 0.998181
+	train_y_mean_max_class: 0.637752
+	train_y_min_max_class: 0.241192
+	train_y_misclass: 0.332353
+	train_y_nll: 0.942628
+	train_y_row_norms_max: 0.319761
+	train_y_row_norms_mean: 0.1387
+	train_y_row_norms_min: 0.0388239
+	valid_h0_kernel_norms_max: 0.500508
+	valid_h0_kernel_norms_mean: 0.242883
+	valid_h0_kernel_norms_min: 0.135171
+	valid_h1_kernel_norms_max: 1.23776
+	valid_h1_kernel_norms_mean: 1.18164
+	valid_h1_kernel_norms_min: 1.13813
+	valid_objective: 1.00056
+	valid_y_col_norms_max: 1.93625
+	valid_y_col_norms_mean: 1.74296
+	valid_y_col_norms_min: 1.62799
+	valid_y_max_max_class: 0.98997
+	valid_y_mean_max_class: 0.61907
+	valid_y_min_max_class: 0.224444
+	valid_y_misclass: 0.347143
+	valid_y_nll: 1.00056
+	valid_y_row_norms_max: 0.319761
+	valid_y_row_norms_mean: 0.1387
+	valid_y_row_norms_min: 0.0388239
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.227299 seconds
+Time this epoch: 0:03:27.662443
+Monitoring step:
+	Epochs seen: 26
+	Batches seen: 884
+	Examples seen: 88400
+	learning_rate: 0.01
+	momentum: 0.549197
+	train_h0_kernel_norms_max: 0.507349
+	train_h0_kernel_norms_mean: 0.245928
+	train_h0_kernel_norms_min: 0.136246
+	train_h1_kernel_norms_max: 1.24003
+	train_h1_kernel_norms_mean: 1.18272
+	train_h1_kernel_norms_min: 1.14015
+	train_objective: 0.905575
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.74875
+	train_y_col_norms_min: 1.63321
+	train_y_max_max_class: 0.998706
+	train_y_mean_max_class: 0.623756
+	train_y_min_max_class: 0.23822
+	train_y_misclass: 0.312353
+	train_y_nll: 0.905575
+	train_y_row_norms_max: 0.323759
+	train_y_row_norms_mean: 0.139106
+	train_y_row_norms_min: 0.0377436
+	valid_h0_kernel_norms_max: 0.507349
+	valid_h0_kernel_norms_mean: 0.245928
+	valid_h0_kernel_norms_min: 0.136246
+	valid_h1_kernel_norms_max: 1.24003
+	valid_h1_kernel_norms_mean: 1.18272
+	valid_h1_kernel_norms_min: 1.14015
+	valid_objective: 0.958976
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.74875
+	valid_y_col_norms_min: 1.63321
+	valid_y_max_max_class: 0.991206
+	valid_y_mean_max_class: 0.60546
+	valid_y_min_max_class: 0.239577
+	valid_y_misclass: 0.317143
+	valid_y_nll: 0.958976
+	valid_y_row_norms_max: 0.323759
+	valid_y_row_norms_mean: 0.139106
+	valid_y_row_norms_min: 0.0377436
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.177692 seconds
+Time this epoch: 0:03:19.897004
+Monitoring step:
+	Epochs seen: 27
+	Batches seen: 918
+	Examples seen: 91800
+	learning_rate: 0.01
+	momentum: 0.551165
+	train_h0_kernel_norms_max: 0.519135
+	train_h0_kernel_norms_mean: 0.24949
+	train_h0_kernel_norms_min: 0.136406
+	train_h1_kernel_norms_max: 1.24127
+	train_h1_kernel_norms_mean: 1.18394
+	train_h1_kernel_norms_min: 1.14204
+	train_objective: 0.872491
+	train_y_col_norms_max: 1.93648
+	train_y_col_norms_mean: 1.75499
+	train_y_col_norms_min: 1.63968
+	train_y_max_max_class: 0.997889
+	train_y_mean_max_class: 0.593946
+	train_y_min_max_class: 0.230811
+	train_y_misclass: 0.287647
+	train_y_nll: 0.872491
+	train_y_row_norms_max: 0.328008
+	train_y_row_norms_mean: 0.139557
+	train_y_row_norms_min: 0.0386313
+	valid_h0_kernel_norms_max: 0.519135
+	valid_h0_kernel_norms_mean: 0.24949
+	valid_h0_kernel_norms_min: 0.136406
+	valid_h1_kernel_norms_max: 1.24127
+	valid_h1_kernel_norms_mean: 1.18394
+	valid_h1_kernel_norms_min: 1.14204
+	valid_objective: 0.945495
+	valid_y_col_norms_max: 1.93648
+	valid_y_col_norms_mean: 1.75499
+	valid_y_col_norms_min: 1.63968
+	valid_y_max_max_class: 0.991819
+	valid_y_mean_max_class: 0.57482
+	valid_y_min_max_class: 0.224236
+	valid_y_misclass: 0.312857
+	valid_y_nll: 0.945495
+	valid_y_row_norms_max: 0.328008
+	valid_y_row_norms_mean: 0.139557
+	valid_y_row_norms_min: 0.0386313
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.192309 seconds
+Time this epoch: 0:03:25.765613
+Monitoring step:
+	Epochs seen: 28
+	Batches seen: 952
+	Examples seen: 95200
+	learning_rate: 0.01
+	momentum: 0.553133
+	train_h0_kernel_norms_max: 0.527052
+	train_h0_kernel_norms_mean: 0.252566
+	train_h0_kernel_norms_min: 0.13547
+	train_h1_kernel_norms_max: 1.24367
+	train_h1_kernel_norms_mean: 1.18505
+	train_h1_kernel_norms_min: 1.14389
+	train_objective: 0.886697
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.76073
+	train_y_col_norms_min: 1.64647
+	train_y_max_max_class: 0.998009
+	train_y_mean_max_class: 0.618451
+	train_y_min_max_class: 0.235568
+	train_y_misclass: 0.295588
+	train_y_nll: 0.886697
+	train_y_row_norms_max: 0.329387
+	train_y_row_norms_mean: 0.139962
+	train_y_row_norms_min: 0.0378684
+	valid_h0_kernel_norms_max: 0.527052
+	valid_h0_kernel_norms_mean: 0.252566
+	valid_h0_kernel_norms_min: 0.13547
+	valid_h1_kernel_norms_max: 1.24368
+	valid_h1_kernel_norms_mean: 1.18505
+	valid_h1_kernel_norms_min: 1.14389
+	valid_objective: 0.968747
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.76073
+	valid_y_col_norms_min: 1.64647
+	valid_y_max_max_class: 0.990207
+	valid_y_mean_max_class: 0.596646
+	valid_y_min_max_class: 0.222771
+	valid_y_misclass: 0.338571
+	valid_y_nll: 0.968747
+	valid_y_row_norms_max: 0.329387
+	valid_y_row_norms_mean: 0.139962
+	valid_y_row_norms_min: 0.0378684
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.213513 seconds
+Time this epoch: 0:03:23.761315
+Monitoring step:
+	Epochs seen: 29
+	Batches seen: 986
+	Examples seen: 98600
+	learning_rate: 0.01
+	momentum: 0.555101
+	train_h0_kernel_norms_max: 0.534936
+	train_h0_kernel_norms_mean: 0.255776
+	train_h0_kernel_norms_min: 0.137276
+	train_h1_kernel_norms_max: 1.24626
+	train_h1_kernel_norms_mean: 1.18615
+	train_h1_kernel_norms_min: 1.14581
+	train_objective: 0.876837
+	train_y_col_norms_max: 1.93646
+	train_y_col_norms_mean: 1.76643
+	train_y_col_norms_min: 1.65126
+	train_y_max_max_class: 0.998115
+	train_y_mean_max_class: 0.660924
+	train_y_min_max_class: 0.242914
+	train_y_misclass: 0.308529
+	train_y_nll: 0.876837
+	train_y_row_norms_max: 0.330708
+	train_y_row_norms_mean: 0.14038
+	train_y_row_norms_min: 0.0375916
+	valid_h0_kernel_norms_max: 0.534936
+	valid_h0_kernel_norms_mean: 0.255776
+	valid_h0_kernel_norms_min: 0.137276
+	valid_h1_kernel_norms_max: 1.24626
+	valid_h1_kernel_norms_mean: 1.18615
+	valid_h1_kernel_norms_min: 1.14581
+	valid_objective: 0.955668
+	valid_y_col_norms_max: 1.93646
+	valid_y_col_norms_mean: 1.76643
+	valid_y_col_norms_min: 1.65126
+	valid_y_max_max_class: 0.992895
+	valid_y_mean_max_class: 0.641918
+	valid_y_min_max_class: 0.233395
+	valid_y_misclass: 0.327143
+	valid_y_nll: 0.955668
+	valid_y_row_norms_max: 0.330708
+	valid_y_row_norms_mean: 0.14038
+	valid_y_row_norms_min: 0.0375916
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.207551 seconds
+Time this epoch: 0:03:27.459439
+Monitoring step:
+	Epochs seen: 30
+	Batches seen: 1020
+	Examples seen: 102000
+	learning_rate: 0.01
+	momentum: 0.557068
+	train_h0_kernel_norms_max: 0.540138
+	train_h0_kernel_norms_mean: 0.25899
+	train_h0_kernel_norms_min: 0.138287
+	train_h1_kernel_norms_max: 1.24832
+	train_h1_kernel_norms_mean: 1.18727
+	train_h1_kernel_norms_min: 1.14802
+	train_objective: 0.850268
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.77237
+	train_y_col_norms_min: 1.65524
+	train_y_max_max_class: 0.999491
+	train_y_mean_max_class: 0.640286
+	train_y_min_max_class: 0.237479
+	train_y_misclass: 0.295294
+	train_y_nll: 0.850268
+	train_y_row_norms_max: 0.331692
+	train_y_row_norms_mean: 0.140812
+	train_y_row_norms_min: 0.0378285
+	valid_h0_kernel_norms_max: 0.540138
+	valid_h0_kernel_norms_mean: 0.25899
+	valid_h0_kernel_norms_min: 0.138287
+	valid_h1_kernel_norms_max: 1.24832
+	valid_h1_kernel_norms_mean: 1.18727
+	valid_h1_kernel_norms_min: 1.14802
+	valid_objective: 0.906734
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.77237
+	valid_y_col_norms_min: 1.65525
+	valid_y_max_max_class: 0.994975
+	valid_y_mean_max_class: 0.625476
+	valid_y_min_max_class: 0.232296
+	valid_y_misclass: 0.342857
+	valid_y_nll: 0.906734
+	valid_y_row_norms_max: 0.331692
+	valid_y_row_norms_mean: 0.140812
+	valid_y_row_norms_min: 0.0378285
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.199293 seconds
+Time this epoch: 0:03:28.504213
+Monitoring step:
+	Epochs seen: 31
+	Batches seen: 1054
+	Examples seen: 105400
+	learning_rate: 0.01
+	momentum: 0.559036
+	train_h0_kernel_norms_max: 0.550452
+	train_h0_kernel_norms_mean: 0.262647
+	train_h0_kernel_norms_min: 0.139283
+	train_h1_kernel_norms_max: 1.25031
+	train_h1_kernel_norms_mean: 1.18859
+	train_h1_kernel_norms_min: 1.14988
+	train_objective: 0.826756
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.77935
+	train_y_col_norms_min: 1.66031
+	train_y_max_max_class: 0.999373
+	train_y_mean_max_class: 0.636538
+	train_y_min_max_class: 0.232765
+	train_y_misclass: 0.276765
+	train_y_nll: 0.826756
+	train_y_row_norms_max: 0.335392
+	train_y_row_norms_mean: 0.141317
+	train_y_row_norms_min: 0.0369311
+	valid_h0_kernel_norms_max: 0.550452
+	valid_h0_kernel_norms_mean: 0.262647
+	valid_h0_kernel_norms_min: 0.139283
+	valid_h1_kernel_norms_max: 1.25031
+	valid_h1_kernel_norms_mean: 1.18859
+	valid_h1_kernel_norms_min: 1.14988
+	valid_objective: 0.897317
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.77935
+	valid_y_col_norms_min: 1.66031
+	valid_y_max_max_class: 0.995636
+	valid_y_mean_max_class: 0.617371
+	valid_y_min_max_class: 0.238123
+	valid_y_misclass: 0.302857
+	valid_y_nll: 0.897317
+	valid_y_row_norms_max: 0.335392
+	valid_y_row_norms_mean: 0.141317
+	valid_y_row_norms_min: 0.0369311
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.249797 seconds
+Time this epoch: 0:03:25.942423
+Monitoring step:
+	Epochs seen: 32
+	Batches seen: 1088
+	Examples seen: 108800
+	learning_rate: 0.01
+	momentum: 0.561004
+	train_h0_kernel_norms_max: 0.559635
+	train_h0_kernel_norms_mean: 0.266101
+	train_h0_kernel_norms_min: 0.139298
+	train_h1_kernel_norms_max: 1.25171
+	train_h1_kernel_norms_mean: 1.18982
+	train_h1_kernel_norms_min: 1.15019
+	train_objective: 0.812365
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.78599
+	train_y_col_norms_min: 1.66694
+	train_y_max_max_class: 0.999444
+	train_y_mean_max_class: 0.626064
+	train_y_min_max_class: 0.23305
+	train_y_misclass: 0.259412
+	train_y_nll: 0.812365
+	train_y_row_norms_max: 0.333835
+	train_y_row_norms_mean: 0.141815
+	train_y_row_norms_min: 0.0369372
+	valid_h0_kernel_norms_max: 0.559635
+	valid_h0_kernel_norms_mean: 0.266101
+	valid_h0_kernel_norms_min: 0.139298
+	valid_h1_kernel_norms_max: 1.25171
+	valid_h1_kernel_norms_mean: 1.18982
+	valid_h1_kernel_norms_min: 1.15019
+	valid_objective: 0.879466
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.78599
+	valid_y_col_norms_min: 1.66694
+	valid_y_max_max_class: 0.995819
+	valid_y_mean_max_class: 0.605432
+	valid_y_min_max_class: 0.225173
+	valid_y_misclass: 0.284286
+	valid_y_nll: 0.879466
+	valid_y_row_norms_max: 0.333835
+	valid_y_row_norms_mean: 0.141815
+	valid_y_row_norms_min: 0.0369372
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.225179 seconds
+Time this epoch: 0:03:38.431606
+Monitoring step:
+	Epochs seen: 33
+	Batches seen: 1122
+	Examples seen: 112200
+	learning_rate: 0.01
+	momentum: 0.562972
+	train_h0_kernel_norms_max: 0.567975
+	train_h0_kernel_norms_mean: 0.269341
+	train_h0_kernel_norms_min: 0.140049
+	train_h1_kernel_norms_max: 1.25296
+	train_h1_kernel_norms_mean: 1.191
+	train_h1_kernel_norms_min: 1.15034
+	train_objective: 0.799959
+	train_y_col_norms_max: 1.93604
+	train_y_col_norms_mean: 1.79204
+	train_y_col_norms_min: 1.67221
+	train_y_max_max_class: 0.999113
+	train_y_mean_max_class: 0.639805
+	train_y_min_max_class: 0.243626
+	train_y_misclass: 0.271471
+	train_y_nll: 0.799959
+	train_y_row_norms_max: 0.335695
+	train_y_row_norms_mean: 0.142246
+	train_y_row_norms_min: 0.0373856
+	valid_h0_kernel_norms_max: 0.567975
+	valid_h0_kernel_norms_mean: 0.269341
+	valid_h0_kernel_norms_min: 0.140049
+	valid_h1_kernel_norms_max: 1.25296
+	valid_h1_kernel_norms_mean: 1.191
+	valid_h1_kernel_norms_min: 1.15034
+	valid_objective: 0.889987
+	valid_y_col_norms_max: 1.93604
+	valid_y_col_norms_mean: 1.79204
+	valid_y_col_norms_min: 1.67221
+	valid_y_max_max_class: 0.997162
+	valid_y_mean_max_class: 0.615935
+	valid_y_min_max_class: 0.235693
+	valid_y_misclass: 0.301429
+	valid_y_nll: 0.889987
+	valid_y_row_norms_max: 0.335695
+	valid_y_row_norms_mean: 0.142246
+	valid_y_row_norms_min: 0.0373856
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.252568 seconds
+Time this epoch: 0:03:32.767829
+Monitoring step:
+	Epochs seen: 34
+	Batches seen: 1156
+	Examples seen: 115600
+	learning_rate: 0.01
+	momentum: 0.56494
+	train_h0_kernel_norms_max: 0.574137
+	train_h0_kernel_norms_mean: 0.272437
+	train_h0_kernel_norms_min: 0.1397
+	train_h1_kernel_norms_max: 1.25558
+	train_h1_kernel_norms_mean: 1.19222
+	train_h1_kernel_norms_min: 1.15087
+	train_objective: 0.812818
+	train_y_col_norms_max: 1.93644
+	train_y_col_norms_mean: 1.79838
+	train_y_col_norms_min: 1.67851
+	train_y_max_max_class: 0.999157
+	train_y_mean_max_class: 0.63103
+	train_y_min_max_class: 0.239473
+	train_y_misclass: 0.273823
+	train_y_nll: 0.812818
+	train_y_row_norms_max: 0.338454
+	train_y_row_norms_mean: 0.142715
+	train_y_row_norms_min: 0.0373228
+	valid_h0_kernel_norms_max: 0.574137
+	valid_h0_kernel_norms_mean: 0.272437
+	valid_h0_kernel_norms_min: 0.1397
+	valid_h1_kernel_norms_max: 1.25558
+	valid_h1_kernel_norms_mean: 1.19222
+	valid_h1_kernel_norms_min: 1.15087
+	valid_objective: 0.904258
+	valid_y_col_norms_max: 1.93644
+	valid_y_col_norms_mean: 1.79839
+	valid_y_col_norms_min: 1.67851
+	valid_y_max_max_class: 0.995346
+	valid_y_mean_max_class: 0.606982
+	valid_y_min_max_class: 0.226168
+	valid_y_misclass: 0.318571
+	valid_y_nll: 0.904258
+	valid_y_row_norms_max: 0.338454
+	valid_y_row_norms_mean: 0.142715
+	valid_y_row_norms_min: 0.0373228
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.250312 seconds
+Time this epoch: 0:03:30.542087
+Monitoring step:
+	Epochs seen: 35
+	Batches seen: 1190
+	Examples seen: 119000
+	learning_rate: 0.01
+	momentum: 0.566907
+	train_h0_kernel_norms_max: 0.578877
+	train_h0_kernel_norms_mean: 0.275143
+	train_h0_kernel_norms_min: 0.140936
+	train_h1_kernel_norms_max: 1.2572
+	train_h1_kernel_norms_mean: 1.19335
+	train_h1_kernel_norms_min: 1.1514
+	train_objective: 0.786849
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.80394
+	train_y_col_norms_min: 1.68405
+	train_y_max_max_class: 0.999442
+	train_y_mean_max_class: 0.663497
+	train_y_min_max_class: 0.246619
+	train_y_misclass: 0.271471
+	train_y_nll: 0.786849
+	train_y_row_norms_max: 0.335356
+	train_y_row_norms_mean: 0.143125
+	train_y_row_norms_min: 0.0378859
+	valid_h0_kernel_norms_max: 0.578877
+	valid_h0_kernel_norms_mean: 0.275143
+	valid_h0_kernel_norms_min: 0.140937
+	valid_h1_kernel_norms_max: 1.2572
+	valid_h1_kernel_norms_mean: 1.19336
+	valid_h1_kernel_norms_min: 1.1514
+	valid_objective: 0.849861
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.80394
+	valid_y_col_norms_min: 1.68404
+	valid_y_max_max_class: 0.996637
+	valid_y_mean_max_class: 0.646496
+	valid_y_min_max_class: 0.247262
+	valid_y_misclass: 0.271429
+	valid_y_nll: 0.849861
+	valid_y_row_norms_max: 0.335356
+	valid_y_row_norms_mean: 0.143125
+	valid_y_row_norms_min: 0.0378859
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.202509 seconds
+Time this epoch: 0:03:20.810041
+Monitoring step:
+	Epochs seen: 36
+	Batches seen: 1224
+	Examples seen: 122400
+	learning_rate: 0.01
+	momentum: 0.568875
+	train_h0_kernel_norms_max: 0.588817
+	train_h0_kernel_norms_mean: 0.278731
+	train_h0_kernel_norms_min: 0.141133
+	train_h1_kernel_norms_max: 1.25816
+	train_h1_kernel_norms_mean: 1.19468
+	train_h1_kernel_norms_min: 1.15192
+	train_objective: 0.785037
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.81012
+	train_y_col_norms_min: 1.69053
+	train_y_max_max_class: 0.998196
+	train_y_mean_max_class: 0.64762
+	train_y_min_max_class: 0.246374
+	train_y_misclass: 0.258235
+	train_y_nll: 0.785037
+	train_y_row_norms_max: 0.338827
+	train_y_row_norms_mean: 0.143561
+	train_y_row_norms_min: 0.0355458
+	valid_h0_kernel_norms_max: 0.588817
+	valid_h0_kernel_norms_mean: 0.278731
+	valid_h0_kernel_norms_min: 0.141133
+	valid_h1_kernel_norms_max: 1.25816
+	valid_h1_kernel_norms_mean: 1.19468
+	valid_h1_kernel_norms_min: 1.15192
+	valid_objective: 0.876579
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.81012
+	valid_y_col_norms_min: 1.69053
+	valid_y_max_max_class: 0.994917
+	valid_y_mean_max_class: 0.622501
+	valid_y_min_max_class: 0.237237
+	valid_y_misclass: 0.31
+	valid_y_nll: 0.876579
+	valid_y_row_norms_max: 0.338827
+	valid_y_row_norms_mean: 0.143561
+	valid_y_row_norms_min: 0.0355457
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.235865 seconds
+Time this epoch: 0:03:33.100707
+Monitoring step:
+	Epochs seen: 37
+	Batches seen: 1258
+	Examples seen: 125800
+	learning_rate: 0.01
+	momentum: 0.570843
+	train_h0_kernel_norms_max: 0.593084
+	train_h0_kernel_norms_mean: 0.282173
+	train_h0_kernel_norms_min: 0.14346
+	train_h1_kernel_norms_max: 1.26085
+	train_h1_kernel_norms_mean: 1.19599
+	train_h1_kernel_norms_min: 1.1521
+	train_objective: 0.749776
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.81643
+	train_y_col_norms_min: 1.6958
+	train_y_max_max_class: 0.999479
+	train_y_mean_max_class: 0.666264
+	train_y_min_max_class: 0.250579
+	train_y_misclass: 0.254412
+	train_y_nll: 0.749776
+	train_y_row_norms_max: 0.340006
+	train_y_row_norms_mean: 0.14401
+	train_y_row_norms_min: 0.0353881
+	valid_h0_kernel_norms_max: 0.593084
+	valid_h0_kernel_norms_mean: 0.282173
+	valid_h0_kernel_norms_min: 0.14346
+	valid_h1_kernel_norms_max: 1.26085
+	valid_h1_kernel_norms_mean: 1.19599
+	valid_h1_kernel_norms_min: 1.1521
+	valid_objective: 0.858357
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.81643
+	valid_y_col_norms_min: 1.6958
+	valid_y_max_max_class: 0.99587
+	valid_y_mean_max_class: 0.647269
+	valid_y_min_max_class: 0.233961
+	valid_y_misclass: 0.298571
+	valid_y_nll: 0.858357
+	valid_y_row_norms_max: 0.340006
+	valid_y_row_norms_mean: 0.144011
+	valid_y_row_norms_min: 0.0353882
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.205216 seconds
+Time this epoch: 0:03:22.166492
+Monitoring step:
+	Epochs seen: 38
+	Batches seen: 1292
+	Examples seen: 129200
+	learning_rate: 0.01
+	momentum: 0.572811
+	train_h0_kernel_norms_max: 0.599827
+	train_h0_kernel_norms_mean: 0.284677
+	train_h0_kernel_norms_min: 0.143099
+	train_h1_kernel_norms_max: 1.26274
+	train_h1_kernel_norms_mean: 1.19713
+	train_h1_kernel_norms_min: 1.15286
+	train_objective: 0.763553
+	train_y_col_norms_max: 1.93575
+	train_y_col_norms_mean: 1.82197
+	train_y_col_norms_min: 1.70193
+	train_y_max_max_class: 0.999131
+	train_y_mean_max_class: 0.674344
+	train_y_min_max_class: 0.255589
+	train_y_misclass: 0.269706
+	train_y_nll: 0.763553
+	train_y_row_norms_max: 0.34064
+	train_y_row_norms_mean: 0.144383
+	train_y_row_norms_min: 0.0355648
+	valid_h0_kernel_norms_max: 0.599827
+	valid_h0_kernel_norms_mean: 0.284677
+	valid_h0_kernel_norms_min: 0.143099
+	valid_h1_kernel_norms_max: 1.26274
+	valid_h1_kernel_norms_mean: 1.19713
+	valid_h1_kernel_norms_min: 1.15286
+	valid_objective: 0.858298
+	valid_y_col_norms_max: 1.93575
+	valid_y_col_norms_mean: 1.82197
+	valid_y_col_norms_min: 1.70193
+	valid_y_max_max_class: 0.996297
+	valid_y_mean_max_class: 0.65363
+	valid_y_min_max_class: 0.254849
+	valid_y_misclass: 0.308571
+	valid_y_nll: 0.858298
+	valid_y_row_norms_max: 0.34064
+	valid_y_row_norms_mean: 0.144383
+	valid_y_row_norms_min: 0.0355648
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.310891 seconds
+Time this epoch: 0:03:23.438481
+Monitoring step:
+	Epochs seen: 39
+	Batches seen: 1326
+	Examples seen: 132600
+	learning_rate: 0.01
+	momentum: 0.574779
+	train_h0_kernel_norms_max: 0.601236
+	train_h0_kernel_norms_mean: 0.287537
+	train_h0_kernel_norms_min: 0.142277
+	train_h1_kernel_norms_max: 1.26361
+	train_h1_kernel_norms_mean: 1.19838
+	train_h1_kernel_norms_min: 1.15353
+	train_objective: 0.734613
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.82807
+	train_y_col_norms_min: 1.70818
+	train_y_max_max_class: 0.998982
+	train_y_mean_max_class: 0.6596
+	train_y_min_max_class: 0.251104
+	train_y_misclass: 0.249706
+	train_y_nll: 0.734613
+	train_y_row_norms_max: 0.341219
+	train_y_row_norms_mean: 0.144838
+	train_y_row_norms_min: 0.0359564
+	valid_h0_kernel_norms_max: 0.601236
+	valid_h0_kernel_norms_mean: 0.287537
+	valid_h0_kernel_norms_min: 0.142277
+	valid_h1_kernel_norms_max: 1.26361
+	valid_h1_kernel_norms_mean: 1.19838
+	valid_h1_kernel_norms_min: 1.15353
+	valid_objective: 0.825485
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.82807
+	valid_y_col_norms_min: 1.70818
+	valid_y_max_max_class: 0.995287
+	valid_y_mean_max_class: 0.634774
+	valid_y_min_max_class: 0.235662
+	valid_y_misclass: 0.27
+	valid_y_nll: 0.825485
+	valid_y_row_norms_max: 0.341219
+	valid_y_row_norms_mean: 0.144838
+	valid_y_row_norms_min: 0.0359564
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.199460 seconds
+Time this epoch: 0:03:29.381691
+Monitoring step:
+	Epochs seen: 40
+	Batches seen: 1360
+	Examples seen: 136000
+	learning_rate: 0.01
+	momentum: 0.576747
+	train_h0_kernel_norms_max: 0.60545
+	train_h0_kernel_norms_mean: 0.29091
+	train_h0_kernel_norms_min: 0.145
+	train_h1_kernel_norms_max: 1.26586
+	train_h1_kernel_norms_mean: 1.19965
+	train_h1_kernel_norms_min: 1.15443
+	train_objective: 0.725226
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.83466
+	train_y_col_norms_min: 1.71287
+	train_y_max_max_class: 0.999599
+	train_y_mean_max_class: 0.683409
+	train_y_min_max_class: 0.256126
+	train_y_misclass: 0.240588
+	train_y_nll: 0.725226
+	train_y_row_norms_max: 0.346036
+	train_y_row_norms_mean: 0.145324
+	train_y_row_norms_min: 0.0350335
+	valid_h0_kernel_norms_max: 0.60545
+	valid_h0_kernel_norms_mean: 0.29091
+	valid_h0_kernel_norms_min: 0.145
+	valid_h1_kernel_norms_max: 1.26586
+	valid_h1_kernel_norms_mean: 1.19965
+	valid_h1_kernel_norms_min: 1.15443
+	valid_objective: 0.81373
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.83466
+	valid_y_col_norms_min: 1.71287
+	valid_y_max_max_class: 0.997029
+	valid_y_mean_max_class: 0.662597
+	valid_y_min_max_class: 0.235943
+	valid_y_misclass: 0.271429
+	valid_y_nll: 0.81373
+	valid_y_row_norms_max: 0.346036
+	valid_y_row_norms_mean: 0.145324
+	valid_y_row_norms_min: 0.0350335
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.218980 seconds
+Time this epoch: 0:03:20.870863
+Monitoring step:
+	Epochs seen: 41
+	Batches seen: 1394
+	Examples seen: 139400
+	learning_rate: 0.01
+	momentum: 0.578715
+	train_h0_kernel_norms_max: 0.608922
+	train_h0_kernel_norms_mean: 0.293938
+	train_h0_kernel_norms_min: 0.146521
+	train_h1_kernel_norms_max: 1.26871
+	train_h1_kernel_norms_mean: 1.20091
+	train_h1_kernel_norms_min: 1.15532
+	train_objective: 0.75858
+	train_y_col_norms_max: 1.93616
+	train_y_col_norms_mean: 1.83946
+	train_y_col_norms_min: 1.7223
+	train_y_max_max_class: 0.999375
+	train_y_mean_max_class: 0.665898
+	train_y_min_max_class: 0.252901
+	train_y_misclass: 0.260294
+	train_y_nll: 0.75858
+	train_y_row_norms_max: 0.348755
+	train_y_row_norms_mean: 0.145604
+	train_y_row_norms_min: 0.0358157
+	valid_h0_kernel_norms_max: 0.608922
+	valid_h0_kernel_norms_mean: 0.293938
+	valid_h0_kernel_norms_min: 0.146521
+	valid_h1_kernel_norms_max: 1.26871
+	valid_h1_kernel_norms_mean: 1.20091
+	valid_h1_kernel_norms_min: 1.15532
+	valid_objective: 0.879222
+	valid_y_col_norms_max: 1.93616
+	valid_y_col_norms_mean: 1.83946
+	valid_y_col_norms_min: 1.7223
+	valid_y_max_max_class: 0.99641
+	valid_y_mean_max_class: 0.639547
+	valid_y_min_max_class: 0.241952
+	valid_y_misclass: 0.312857
+	valid_y_nll: 0.879222
+	valid_y_row_norms_max: 0.348755
+	valid_y_row_norms_mean: 0.145604
+	valid_y_row_norms_min: 0.0358157
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.242083 seconds
+Time this epoch: 0:03:26.540946
+Monitoring step:
+	Epochs seen: 42
+	Batches seen: 1428
+	Examples seen: 142800
+	learning_rate: 0.01
+	momentum: 0.580683
+	train_h0_kernel_norms_max: 0.616777
+	train_h0_kernel_norms_mean: 0.296439
+	train_h0_kernel_norms_min: 0.148582
+	train_h1_kernel_norms_max: 1.27016
+	train_h1_kernel_norms_mean: 1.20209
+	train_h1_kernel_norms_min: 1.15531
+	train_objective: 0.719546
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.84351
+	train_y_col_norms_min: 1.72667
+	train_y_max_max_class: 0.999092
+	train_y_mean_max_class: 0.668959
+	train_y_min_max_class: 0.258285
+	train_y_misclass: 0.238235
+	train_y_nll: 0.719546
+	train_y_row_norms_max: 0.348188
+	train_y_row_norms_mean: 0.145896
+	train_y_row_norms_min: 0.0381367
+	valid_h0_kernel_norms_max: 0.616777
+	valid_h0_kernel_norms_mean: 0.296439
+	valid_h0_kernel_norms_min: 0.148582
+	valid_h1_kernel_norms_max: 1.27016
+	valid_h1_kernel_norms_mean: 1.20209
+	valid_h1_kernel_norms_min: 1.15531
+	valid_objective: 0.820494
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.84351
+	valid_y_col_norms_min: 1.72667
+	valid_y_max_max_class: 0.99728
+	valid_y_mean_max_class: 0.639956
+	valid_y_min_max_class: 0.24922
+	valid_y_misclass: 0.291429
+	valid_y_nll: 0.820494
+	valid_y_row_norms_max: 0.348188
+	valid_y_row_norms_mean: 0.145896
+	valid_y_row_norms_min: 0.0381367
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.193225 seconds
+Time this epoch: 0:03:27.434353
+Monitoring step:
+	Epochs seen: 43
+	Batches seen: 1462
+	Examples seen: 146200
+	learning_rate: 0.01
+	momentum: 0.582651
+	train_h0_kernel_norms_max: 0.628219
+	train_h0_kernel_norms_mean: 0.299641
+	train_h0_kernel_norms_min: 0.149117
+	train_h1_kernel_norms_max: 1.27405
+	train_h1_kernel_norms_mean: 1.20349
+	train_h1_kernel_norms_min: 1.15599
+	train_objective: 0.691797
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.84882
+	train_y_col_norms_min: 1.73344
+	train_y_max_max_class: 0.999776
+	train_y_mean_max_class: 0.686253
+	train_y_min_max_class: 0.247602
+	train_y_misclass: 0.242647
+	train_y_nll: 0.691797
+	train_y_row_norms_max: 0.351673
+	train_y_row_norms_mean: 0.146246
+	train_y_row_norms_min: 0.0378585
+	valid_h0_kernel_norms_max: 0.628219
+	valid_h0_kernel_norms_mean: 0.299641
+	valid_h0_kernel_norms_min: 0.149117
+	valid_h1_kernel_norms_max: 1.27405
+	valid_h1_kernel_norms_mean: 1.20349
+	valid_h1_kernel_norms_min: 1.15599
+	valid_objective: 0.779356
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.84882
+	valid_y_col_norms_min: 1.73344
+	valid_y_max_max_class: 0.998213
+	valid_y_mean_max_class: 0.670396
+	valid_y_min_max_class: 0.257241
+	valid_y_misclass: 0.254286
+	valid_y_nll: 0.779356
+	valid_y_row_norms_max: 0.351673
+	valid_y_row_norms_mean: 0.146246
+	valid_y_row_norms_min: 0.0378585
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.194250 seconds
+Time this epoch: 0:03:33.633422
+Monitoring step:
+	Epochs seen: 44
+	Batches seen: 1496
+	Examples seen: 149600
+	learning_rate: 0.01
+	momentum: 0.584618
+	train_h0_kernel_norms_max: 0.633992
+	train_h0_kernel_norms_mean: 0.302785
+	train_h0_kernel_norms_min: 0.149479
+	train_h1_kernel_norms_max: 1.27795
+	train_h1_kernel_norms_mean: 1.20482
+	train_h1_kernel_norms_min: 1.15691
+	train_objective: 0.731808
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.85392
+	train_y_col_norms_min: 1.73819
+	train_y_max_max_class: 0.999778
+	train_y_mean_max_class: 0.700062
+	train_y_min_max_class: 0.262949
+	train_y_misclass: 0.245882
+	train_y_nll: 0.731808
+	train_y_row_norms_max: 0.356572
+	train_y_row_norms_mean: 0.146613
+	train_y_row_norms_min: 0.0389286
+	valid_h0_kernel_norms_max: 0.633992
+	valid_h0_kernel_norms_mean: 0.302785
+	valid_h0_kernel_norms_min: 0.149479
+	valid_h1_kernel_norms_max: 1.27795
+	valid_h1_kernel_norms_mean: 1.20482
+	valid_h1_kernel_norms_min: 1.15691
+	valid_objective: 0.813588
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.85392
+	valid_y_col_norms_min: 1.73819
+	valid_y_max_max_class: 0.998417
+	valid_y_mean_max_class: 0.680188
+	valid_y_min_max_class: 0.257992
+	valid_y_misclass: 0.271429
+	valid_y_nll: 0.813588
+	valid_y_row_norms_max: 0.356572
+	valid_y_row_norms_mean: 0.146613
+	valid_y_row_norms_min: 0.0389286
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.184547 seconds
+Time this epoch: 0:03:20.740518
+Monitoring step:
+	Epochs seen: 45
+	Batches seen: 1530
+	Examples seen: 153000
+	learning_rate: 0.01
+	momentum: 0.586586
+	train_h0_kernel_norms_max: 0.629283
+	train_h0_kernel_norms_mean: 0.30561
+	train_h0_kernel_norms_min: 0.14907
+	train_h1_kernel_norms_max: 1.27933
+	train_h1_kernel_norms_mean: 1.20601
+	train_h1_kernel_norms_min: 1.15737
+	train_objective: 0.777247
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.85828
+	train_y_col_norms_min: 1.74539
+	train_y_max_max_class: 0.999451
+	train_y_mean_max_class: 0.655967
+	train_y_min_max_class: 0.240436
+	train_y_misclass: 0.284706
+	train_y_nll: 0.777247
+	train_y_row_norms_max: 0.3595
+	train_y_row_norms_mean: 0.146924
+	train_y_row_norms_min: 0.0397813
+	valid_h0_kernel_norms_max: 0.629282
+	valid_h0_kernel_norms_mean: 0.30561
+	valid_h0_kernel_norms_min: 0.14907
+	valid_h1_kernel_norms_max: 1.27933
+	valid_h1_kernel_norms_mean: 1.20601
+	valid_h1_kernel_norms_min: 1.15737
+	valid_objective: 0.904735
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.85828
+	valid_y_col_norms_min: 1.74539
+	valid_y_max_max_class: 0.997573
+	valid_y_mean_max_class: 0.638949
+	valid_y_min_max_class: 0.227293
+	valid_y_misclass: 0.325714
+	valid_y_nll: 0.904735
+	valid_y_row_norms_max: 0.3595
+	valid_y_row_norms_mean: 0.146924
+	valid_y_row_norms_min: 0.0397813
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.202435 seconds
+Time this epoch: 0:03:22.634203
+Monitoring step:
+	Epochs seen: 46
+	Batches seen: 1564
+	Examples seen: 156400
+	learning_rate: 0.01
+	momentum: 0.588554
+	train_h0_kernel_norms_max: 0.643422
+	train_h0_kernel_norms_mean: 0.30891
+	train_h0_kernel_norms_min: 0.147696
+	train_h1_kernel_norms_max: 1.28277
+	train_h1_kernel_norms_mean: 1.20744
+	train_h1_kernel_norms_min: 1.15804
+	train_objective: 0.691779
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.864
+	train_y_col_norms_min: 1.75337
+	train_y_max_max_class: 0.999682
+	train_y_mean_max_class: 0.707677
+	train_y_min_max_class: 0.269945
+	train_y_misclass: 0.237647
+	train_y_nll: 0.691779
+	train_y_row_norms_max: 0.361343
+	train_y_row_norms_mean: 0.147337
+	train_y_row_norms_min: 0.0406462
+	valid_h0_kernel_norms_max: 0.643422
+	valid_h0_kernel_norms_mean: 0.30891
+	valid_h0_kernel_norms_min: 0.147696
+	valid_h1_kernel_norms_max: 1.28277
+	valid_h1_kernel_norms_mean: 1.20744
+	valid_h1_kernel_norms_min: 1.15804
+	valid_objective: 0.789934
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.864
+	valid_y_col_norms_min: 1.75337
+	valid_y_max_max_class: 0.998835
+	valid_y_mean_max_class: 0.689188
+	valid_y_min_max_class: 0.253528
+	valid_y_misclass: 0.271429
+	valid_y_nll: 0.789934
+	valid_y_row_norms_max: 0.361344
+	valid_y_row_norms_mean: 0.147337
+	valid_y_row_norms_min: 0.0406462
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.209493 seconds
+Time this epoch: 0:03:26.591207
+Monitoring step:
+	Epochs seen: 47
+	Batches seen: 1598
+	Examples seen: 159800
+	learning_rate: 0.01
+	momentum: 0.590522
+	train_h0_kernel_norms_max: 0.64413
+	train_h0_kernel_norms_mean: 0.31125
+	train_h0_kernel_norms_min: 0.149466
+	train_h1_kernel_norms_max: 1.28468
+	train_h1_kernel_norms_mean: 1.20865
+	train_h1_kernel_norms_min: 1.15894
+	train_objective: 0.67476
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.86807
+	train_y_col_norms_min: 1.75992
+	train_y_max_max_class: 0.9998
+	train_y_mean_max_class: 0.693845
+	train_y_min_max_class: 0.258622
+	train_y_misclass: 0.222941
+	train_y_nll: 0.67476
+	train_y_row_norms_max: 0.366004
+	train_y_row_norms_mean: 0.147604
+	train_y_row_norms_min: 0.0416583
+	valid_h0_kernel_norms_max: 0.64413
+	valid_h0_kernel_norms_mean: 0.31125
+	valid_h0_kernel_norms_min: 0.149466
+	valid_h1_kernel_norms_max: 1.28468
+	valid_h1_kernel_norms_mean: 1.20865
+	valid_h1_kernel_norms_min: 1.15894
+	valid_objective: 0.763332
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.86807
+	valid_y_col_norms_min: 1.75992
+	valid_y_max_max_class: 0.998515
+	valid_y_mean_max_class: 0.670888
+	valid_y_min_max_class: 0.238732
+	valid_y_misclass: 0.251429
+	valid_y_nll: 0.763332
+	valid_y_row_norms_max: 0.366004
+	valid_y_row_norms_mean: 0.147604
+	valid_y_row_norms_min: 0.0416583
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.216539 seconds
+Time this epoch: 0:03:13.591667
+Monitoring step:
+	Epochs seen: 48
+	Batches seen: 1632
+	Examples seen: 163200
+	learning_rate: 0.01
+	momentum: 0.59249
+	train_h0_kernel_norms_max: 0.65304
+	train_h0_kernel_norms_mean: 0.314146
+	train_h0_kernel_norms_min: 0.148151
+	train_h1_kernel_norms_max: 1.28649
+	train_h1_kernel_norms_mean: 1.21002
+	train_h1_kernel_norms_min: 1.15989
+	train_objective: 0.6502
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.87108
+	train_y_col_norms_min: 1.767
+	train_y_max_max_class: 0.99987
+	train_y_mean_max_class: 0.704284
+	train_y_min_max_class: 0.256377
+	train_y_misclass: 0.220588
+	train_y_nll: 0.6502
+	train_y_row_norms_max: 0.36454
+	train_y_row_norms_mean: 0.147812
+	train_y_row_norms_min: 0.0425256
+	valid_h0_kernel_norms_max: 0.653041
+	valid_h0_kernel_norms_mean: 0.314146
+	valid_h0_kernel_norms_min: 0.148151
+	valid_h1_kernel_norms_max: 1.28649
+	valid_h1_kernel_norms_mean: 1.21002
+	valid_h1_kernel_norms_min: 1.15989
+	valid_objective: 0.751698
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.87108
+	valid_y_col_norms_min: 1.767
+	valid_y_max_max_class: 0.998119
+	valid_y_mean_max_class: 0.685366
+	valid_y_min_max_class: 0.24959
+	valid_y_misclass: 0.245714
+	valid_y_nll: 0.751698
+	valid_y_row_norms_max: 0.36454
+	valid_y_row_norms_mean: 0.147812
+	valid_y_row_norms_min: 0.0425256
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.216504 seconds
+Time this epoch: 0:03:21.770405
+Monitoring step:
+	Epochs seen: 49
+	Batches seen: 1666
+	Examples seen: 166600
+	learning_rate: 0.01
+	momentum: 0.594458
+	train_h0_kernel_norms_max: 0.659454
+	train_h0_kernel_norms_mean: 0.317083
+	train_h0_kernel_norms_min: 0.149792
+	train_h1_kernel_norms_max: 1.28965
+	train_h1_kernel_norms_mean: 1.21141
+	train_h1_kernel_norms_min: 1.16142
+	train_objective: 0.677619
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.87552
+	train_y_col_norms_min: 1.7752
+	train_y_max_max_class: 0.999816
+	train_y_mean_max_class: 0.698215
+	train_y_min_max_class: 0.250757
+	train_y_misclass: 0.227647
+	train_y_nll: 0.677619
+	train_y_row_norms_max: 0.366605
+	train_y_row_norms_mean: 0.148097
+	train_y_row_norms_min: 0.0434172
+	valid_h0_kernel_norms_max: 0.659455
+	valid_h0_kernel_norms_mean: 0.317084
+	valid_h0_kernel_norms_min: 0.149792
+	valid_h1_kernel_norms_max: 1.28965
+	valid_h1_kernel_norms_mean: 1.21141
+	valid_h1_kernel_norms_min: 1.16142
+	valid_objective: 0.772038
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.87552
+	valid_y_col_norms_min: 1.7752
+	valid_y_max_max_class: 0.998622
+	valid_y_mean_max_class: 0.676038
+	valid_y_min_max_class: 0.259972
+	valid_y_misclass: 0.265714
+	valid_y_nll: 0.772038
+	valid_y_row_norms_max: 0.366605
+	valid_y_row_norms_mean: 0.148097
+	valid_y_row_norms_min: 0.0434172
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.442420 seconds
+Time this epoch: 0:03:18.860219
+Monitoring step:
+	Epochs seen: 50
+	Batches seen: 1700
+	Examples seen: 170000
+	learning_rate: 0.01
+	momentum: 0.596426
+	train_h0_kernel_norms_max: 0.660048
+	train_h0_kernel_norms_mean: 0.319897
+	train_h0_kernel_norms_min: 0.150931
+	train_h1_kernel_norms_max: 1.29215
+	train_h1_kernel_norms_mean: 1.21271
+	train_h1_kernel_norms_min: 1.16149
+	train_objective: 0.657372
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.87884
+	train_y_col_norms_min: 1.78253
+	train_y_max_max_class: 0.999681
+	train_y_mean_max_class: 0.702874
+	train_y_min_max_class: 0.260954
+	train_y_misclass: 0.216176
+	train_y_nll: 0.657372
+	train_y_row_norms_max: 0.373244
+	train_y_row_norms_mean: 0.148302
+	train_y_row_norms_min: 0.0447195
+	valid_h0_kernel_norms_max: 0.660048
+	valid_h0_kernel_norms_mean: 0.319897
+	valid_h0_kernel_norms_min: 0.150931
+	valid_h1_kernel_norms_max: 1.29215
+	valid_h1_kernel_norms_mean: 1.21271
+	valid_h1_kernel_norms_min: 1.16149
+	valid_objective: 0.769037
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.87884
+	valid_y_col_norms_min: 1.78253
+	valid_y_max_max_class: 0.998652
+	valid_y_mean_max_class: 0.68299
+	valid_y_min_max_class: 0.274436
+	valid_y_misclass: 0.257143
+	valid_y_nll: 0.769037
+	valid_y_row_norms_max: 0.373244
+	valid_y_row_norms_mean: 0.148302
+	valid_y_row_norms_min: 0.0447195
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.228429 seconds
+Time this epoch: 0:03:24.840664
+Monitoring step:
+	Epochs seen: 51
+	Batches seen: 1734
+	Examples seen: 173400
+	learning_rate: 0.01
+	momentum: 0.598394
+	train_h0_kernel_norms_max: 0.665549
+	train_h0_kernel_norms_mean: 0.32218
+	train_h0_kernel_norms_min: 0.152644
+	train_h1_kernel_norms_max: 1.29579
+	train_h1_kernel_norms_mean: 1.21399
+	train_h1_kernel_norms_min: 1.16155
+	train_objective: 0.642871
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.88268
+	train_y_col_norms_min: 1.78845
+	train_y_max_max_class: 0.999915
+	train_y_mean_max_class: 0.728295
+	train_y_min_max_class: 0.269105
+	train_y_misclass: 0.222059
+	train_y_nll: 0.642871
+	train_y_row_norms_max: 0.373795
+	train_y_row_norms_mean: 0.148529
+	train_y_row_norms_min: 0.0454237
+	valid_h0_kernel_norms_max: 0.665549
+	valid_h0_kernel_norms_mean: 0.322181
+	valid_h0_kernel_norms_min: 0.152644
+	valid_h1_kernel_norms_max: 1.29578
+	valid_h1_kernel_norms_mean: 1.21398
+	valid_h1_kernel_norms_min: 1.16155
+	valid_objective: 0.745383
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.88268
+	valid_y_col_norms_min: 1.78845
+	valid_y_max_max_class: 0.998829
+	valid_y_mean_max_class: 0.713046
+	valid_y_min_max_class: 0.264423
+	valid_y_misclass: 0.244286
+	valid_y_nll: 0.745383
+	valid_y_row_norms_max: 0.373795
+	valid_y_row_norms_mean: 0.148529
+	valid_y_row_norms_min: 0.0454237
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.213359 seconds
+Time this epoch: 0:03:21.121693
+Monitoring step:
+	Epochs seen: 52
+	Batches seen: 1768
+	Examples seen: 176800
+	learning_rate: 0.01
+	momentum: 0.600362
+	train_h0_kernel_norms_max: 0.669883
+	train_h0_kernel_norms_mean: 0.325288
+	train_h0_kernel_norms_min: 0.150957
+	train_h1_kernel_norms_max: 1.3007
+	train_h1_kernel_norms_mean: 1.21543
+	train_h1_kernel_norms_min: 1.1617
+	train_objective: 0.641068
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.88634
+	train_y_col_norms_min: 1.79304
+	train_y_max_max_class: 0.999827
+	train_y_mean_max_class: 0.726392
+	train_y_min_max_class: 0.267924
+	train_y_misclass: 0.228824
+	train_y_nll: 0.641068
+	train_y_row_norms_max: 0.376587
+	train_y_row_norms_mean: 0.148757
+	train_y_row_norms_min: 0.0465505
+	valid_h0_kernel_norms_max: 0.669883
+	valid_h0_kernel_norms_mean: 0.325288
+	valid_h0_kernel_norms_min: 0.150957
+	valid_h1_kernel_norms_max: 1.3007
+	valid_h1_kernel_norms_mean: 1.21543
+	valid_h1_kernel_norms_min: 1.1617
+	valid_objective: 0.755467
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.88634
+	valid_y_col_norms_min: 1.79304
+	valid_y_max_max_class: 0.998623
+	valid_y_mean_max_class: 0.711852
+	valid_y_min_max_class: 0.261858
+	valid_y_misclass: 0.251429
+	valid_y_nll: 0.755467
+	valid_y_row_norms_max: 0.376587
+	valid_y_row_norms_mean: 0.148757
+	valid_y_row_norms_min: 0.0465505
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.206210 seconds
+Time this epoch: 0:03:17.101367
+Monitoring step:
+	Epochs seen: 53
+	Batches seen: 1802
+	Examples seen: 180200
+	learning_rate: 0.01
+	momentum: 0.602329
+	train_h0_kernel_norms_max: 0.675421
+	train_h0_kernel_norms_mean: 0.328183
+	train_h0_kernel_norms_min: 0.154437
+	train_h1_kernel_norms_max: 1.30266
+	train_h1_kernel_norms_mean: 1.21681
+	train_h1_kernel_norms_min: 1.16162
+	train_objective: 0.632379
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.88937
+	train_y_col_norms_min: 1.80195
+	train_y_max_max_class: 0.999764
+	train_y_mean_max_class: 0.713397
+	train_y_min_max_class: 0.265943
+	train_y_misclass: 0.212941
+	train_y_nll: 0.632379
+	train_y_row_norms_max: 0.381325
+	train_y_row_norms_mean: 0.148929
+	train_y_row_norms_min: 0.047171
+	valid_h0_kernel_norms_max: 0.675421
+	valid_h0_kernel_norms_mean: 0.328183
+	valid_h0_kernel_norms_min: 0.154437
+	valid_h1_kernel_norms_max: 1.30266
+	valid_h1_kernel_norms_mean: 1.21681
+	valid_h1_kernel_norms_min: 1.16162
+	valid_objective: 0.741318
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.88937
+	valid_y_col_norms_min: 1.80195
+	valid_y_max_max_class: 0.997834
+	valid_y_mean_max_class: 0.687548
+	valid_y_min_max_class: 0.275468
+	valid_y_misclass: 0.247143
+	valid_y_nll: 0.741318
+	valid_y_row_norms_max: 0.381325
+	valid_y_row_norms_mean: 0.148929
+	valid_y_row_norms_min: 0.047171
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.212359 seconds
+Time this epoch: 0:03:23.089958
+Monitoring step:
+	Epochs seen: 54
+	Batches seen: 1836
+	Examples seen: 183600
+	learning_rate: 0.01
+	momentum: 0.604297
+	train_h0_kernel_norms_max: 0.682531
+	train_h0_kernel_norms_mean: 0.331293
+	train_h0_kernel_norms_min: 0.15198
+	train_h1_kernel_norms_max: 1.30353
+	train_h1_kernel_norms_mean: 1.21824
+	train_h1_kernel_norms_min: 1.16163
+	train_objective: 0.638652
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.89206
+	train_y_col_norms_min: 1.80736
+	train_y_max_max_class: 0.999801
+	train_y_mean_max_class: 0.728965
+	train_y_min_max_class: 0.276826
+	train_y_misclass: 0.217353
+	train_y_nll: 0.638652
+	train_y_row_norms_max: 0.382855
+	train_y_row_norms_mean: 0.149108
+	train_y_row_norms_min: 0.0505155
+	valid_h0_kernel_norms_max: 0.682531
+	valid_h0_kernel_norms_mean: 0.331292
+	valid_h0_kernel_norms_min: 0.15198
+	valid_h1_kernel_norms_max: 1.30353
+	valid_h1_kernel_norms_mean: 1.21824
+	valid_h1_kernel_norms_min: 1.16163
+	valid_objective: 0.748522
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.89206
+	valid_y_col_norms_min: 1.80736
+	valid_y_max_max_class: 0.99875
+	valid_y_mean_max_class: 0.70177
+	valid_y_min_max_class: 0.252279
+	valid_y_misclass: 0.268571
+	valid_y_nll: 0.748522
+	valid_y_row_norms_max: 0.382855
+	valid_y_row_norms_mean: 0.149108
+	valid_y_row_norms_min: 0.0505155
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.272454 seconds
+Time this epoch: 0:03:26.794740
+Monitoring step:
+	Epochs seen: 55
+	Batches seen: 1870
+	Examples seen: 187000
+	learning_rate: 0.01
+	momentum: 0.606265
+	train_h0_kernel_norms_max: 0.680571
+	train_h0_kernel_norms_mean: 0.333988
+	train_h0_kernel_norms_min: 0.155446
+	train_h1_kernel_norms_max: 1.30732
+	train_h1_kernel_norms_mean: 1.21957
+	train_h1_kernel_norms_min: 1.1617
+	train_objective: 0.610145
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.89507
+	train_y_col_norms_min: 1.81516
+	train_y_max_max_class: 0.99992
+	train_y_mean_max_class: 0.722453
+	train_y_min_max_class: 0.261769
+	train_y_misclass: 0.205
+	train_y_nll: 0.610145
+	train_y_row_norms_max: 0.384655
+	train_y_row_norms_mean: 0.149283
+	train_y_row_norms_min: 0.0515696
+	valid_h0_kernel_norms_max: 0.680571
+	valid_h0_kernel_norms_mean: 0.333988
+	valid_h0_kernel_norms_min: 0.155446
+	valid_h1_kernel_norms_max: 1.30732
+	valid_h1_kernel_norms_mean: 1.21957
+	valid_h1_kernel_norms_min: 1.1617
+	valid_objective: 0.72773
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.89507
+	valid_y_col_norms_min: 1.81516
+	valid_y_max_max_class: 0.999047
+	valid_y_mean_max_class: 0.705364
+	valid_y_min_max_class: 0.258622
+	valid_y_misclass: 0.241429
+	valid_y_nll: 0.72773
+	valid_y_row_norms_max: 0.384655
+	valid_y_row_norms_mean: 0.149283
+	valid_y_row_norms_min: 0.0515696
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.216198 seconds
+Time this epoch: 0:03:17.125013
+Monitoring step:
+	Epochs seen: 56
+	Batches seen: 1904
+	Examples seen: 190400
+	learning_rate: 0.01
+	momentum: 0.608233
+	train_h0_kernel_norms_max: 0.684905
+	train_h0_kernel_norms_mean: 0.336294
+	train_h0_kernel_norms_min: 0.156428
+	train_h1_kernel_norms_max: 1.30717
+	train_h1_kernel_norms_mean: 1.22076
+	train_h1_kernel_norms_min: 1.16189
+	train_objective: 0.610258
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.89775
+	train_y_col_norms_min: 1.81764
+	train_y_max_max_class: 0.999949
+	train_y_mean_max_class: 0.732826
+	train_y_min_max_class: 0.271358
+	train_y_misclass: 0.211471
+	train_y_nll: 0.610258
+	train_y_row_norms_max: 0.388133
+	train_y_row_norms_mean: 0.149469
+	train_y_row_norms_min: 0.0514852
+	valid_h0_kernel_norms_max: 0.684905
+	valid_h0_kernel_norms_mean: 0.336294
+	valid_h0_kernel_norms_min: 0.156428
+	valid_h1_kernel_norms_max: 1.30717
+	valid_h1_kernel_norms_mean: 1.22076
+	valid_h1_kernel_norms_min: 1.16189
+	valid_objective: 0.710213
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.89776
+	valid_y_col_norms_min: 1.81764
+	valid_y_max_max_class: 0.998889
+	valid_y_mean_max_class: 0.717317
+	valid_y_min_max_class: 0.269895
+	valid_y_misclass: 0.221429
+	valid_y_nll: 0.710213
+	valid_y_row_norms_max: 0.388133
+	valid_y_row_norms_mean: 0.149469
+	valid_y_row_norms_min: 0.0514852
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.253993 seconds
+Time this epoch: 0:03:31.386233
+Monitoring step:
+	Epochs seen: 57
+	Batches seen: 1938
+	Examples seen: 193800
+	learning_rate: 0.01
+	momentum: 0.610201
+	train_h0_kernel_norms_max: 0.690533
+	train_h0_kernel_norms_mean: 0.339008
+	train_h0_kernel_norms_min: 0.155666
+	train_h1_kernel_norms_max: 1.30985
+	train_h1_kernel_norms_mean: 1.22218
+	train_h1_kernel_norms_min: 1.16187
+	train_objective: 0.62709
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.90054
+	train_y_col_norms_min: 1.82501
+	train_y_max_max_class: 0.999929
+	train_y_mean_max_class: 0.746787
+	train_y_min_max_class: 0.271258
+	train_y_misclass: 0.215882
+	train_y_nll: 0.62709
+	train_y_row_norms_max: 0.394228
+	train_y_row_norms_mean: 0.149597
+	train_y_row_norms_min: 0.0530619
+	valid_h0_kernel_norms_max: 0.690533
+	valid_h0_kernel_norms_mean: 0.339008
+	valid_h0_kernel_norms_min: 0.155666
+	valid_h1_kernel_norms_max: 1.30985
+	valid_h1_kernel_norms_mean: 1.22218
+	valid_h1_kernel_norms_min: 1.16188
+	valid_objective: 0.726443
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.90054
+	valid_y_col_norms_min: 1.82501
+	valid_y_max_max_class: 0.999195
+	valid_y_mean_max_class: 0.725271
+	valid_y_min_max_class: 0.263042
+	valid_y_misclass: 0.235714
+	valid_y_nll: 0.726443
+	valid_y_row_norms_max: 0.394228
+	valid_y_row_norms_mean: 0.149597
+	valid_y_row_norms_min: 0.0530619
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.269397 seconds
+Time this epoch: 0:03:29.373637
+Monitoring step:
+	Epochs seen: 58
+	Batches seen: 1972
+	Examples seen: 197200
+	learning_rate: 0.01
+	momentum: 0.612168
+	train_h0_kernel_norms_max: 0.694965
+	train_h0_kernel_norms_mean: 0.341494
+	train_h0_kernel_norms_min: 0.155917
+	train_h1_kernel_norms_max: 1.31311
+	train_h1_kernel_norms_mean: 1.2235
+	train_h1_kernel_norms_min: 1.16217
+	train_objective: 0.626431
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.90295
+	train_y_col_norms_min: 1.83034
+	train_y_max_max_class: 0.999868
+	train_y_mean_max_class: 0.718128
+	train_y_min_max_class: 0.275842
+	train_y_misclass: 0.215882
+	train_y_nll: 0.626431
+	train_y_row_norms_max: 0.395015
+	train_y_row_norms_mean: 0.149746
+	train_y_row_norms_min: 0.0529665
+	valid_h0_kernel_norms_max: 0.694965
+	valid_h0_kernel_norms_mean: 0.341494
+	valid_h0_kernel_norms_min: 0.155917
+	valid_h1_kernel_norms_max: 1.31311
+	valid_h1_kernel_norms_mean: 1.2235
+	valid_h1_kernel_norms_min: 1.16217
+	valid_objective: 0.756467
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.90295
+	valid_y_col_norms_min: 1.83034
+	valid_y_max_max_class: 0.998931
+	valid_y_mean_max_class: 0.694766
+	valid_y_min_max_class: 0.259626
+	valid_y_misclass: 0.262857
+	valid_y_nll: 0.756467
+	valid_y_row_norms_max: 0.395015
+	valid_y_row_norms_mean: 0.149746
+	valid_y_row_norms_min: 0.0529665
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.211229 seconds
+Time this epoch: 0:03:21.946380
+Monitoring step:
+	Epochs seen: 59
+	Batches seen: 2006
+	Examples seen: 200600
+	learning_rate: 0.01
+	momentum: 0.614136
+	train_h0_kernel_norms_max: 0.698695
+	train_h0_kernel_norms_mean: 0.34413
+	train_h0_kernel_norms_min: 0.158724
+	train_h1_kernel_norms_max: 1.31479
+	train_h1_kernel_norms_mean: 1.22488
+	train_h1_kernel_norms_min: 1.16244
+	train_objective: 0.585789
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.90531
+	train_y_col_norms_min: 1.83785
+	train_y_max_max_class: 0.999963
+	train_y_mean_max_class: 0.739553
+	train_y_min_max_class: 0.274074
+	train_y_misclass: 0.197353
+	train_y_nll: 0.585789
+	train_y_row_norms_max: 0.394474
+	train_y_row_norms_mean: 0.149881
+	train_y_row_norms_min: 0.0538165
+	valid_h0_kernel_norms_max: 0.698695
+	valid_h0_kernel_norms_mean: 0.34413
+	valid_h0_kernel_norms_min: 0.158724
+	valid_h1_kernel_norms_max: 1.31479
+	valid_h1_kernel_norms_mean: 1.22488
+	valid_h1_kernel_norms_min: 1.16244
+	valid_objective: 0.698633
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.90531
+	valid_y_col_norms_min: 1.83785
+	valid_y_max_max_class: 0.99953
+	valid_y_mean_max_class: 0.724111
+	valid_y_min_max_class: 0.261053
+	valid_y_misclass: 0.222857
+	valid_y_nll: 0.698633
+	valid_y_row_norms_max: 0.394474
+	valid_y_row_norms_mean: 0.149881
+	valid_y_row_norms_min: 0.0538165
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.215854 seconds
+Time this epoch: 0:03:19.509012
+Monitoring step:
+	Epochs seen: 60
+	Batches seen: 2040
+	Examples seen: 204000
+	learning_rate: 0.01
+	momentum: 0.616104
+	train_h0_kernel_norms_max: 0.701505
+	train_h0_kernel_norms_mean: 0.346712
+	train_h0_kernel_norms_min: 0.15928
+	train_h1_kernel_norms_max: 1.31521
+	train_h1_kernel_norms_mean: 1.22631
+	train_h1_kernel_norms_min: 1.16281
+	train_objective: 0.571286
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.90823
+	train_y_col_norms_min: 1.84494
+	train_y_max_max_class: 0.999957
+	train_y_mean_max_class: 0.74387
+	train_y_min_max_class: 0.287271
+	train_y_misclass: 0.184118
+	train_y_nll: 0.571286
+	train_y_row_norms_max: 0.399915
+	train_y_row_norms_mean: 0.150068
+	train_y_row_norms_min: 0.0518015
+	valid_h0_kernel_norms_max: 0.701506
+	valid_h0_kernel_norms_mean: 0.346712
+	valid_h0_kernel_norms_min: 0.15928
+	valid_h1_kernel_norms_max: 1.31521
+	valid_h1_kernel_norms_mean: 1.22631
+	valid_h1_kernel_norms_min: 1.16281
+	valid_objective: 0.707761
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.90823
+	valid_y_col_norms_min: 1.84494
+	valid_y_max_max_class: 0.999674
+	valid_y_mean_max_class: 0.728478
+	valid_y_min_max_class: 0.25609
+	valid_y_misclass: 0.221429
+	valid_y_nll: 0.707761
+	valid_y_row_norms_max: 0.399915
+	valid_y_row_norms_mean: 0.150068
+	valid_y_row_norms_min: 0.0518015
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.219177 seconds
+Time this epoch: 0:03:23.681194
+Monitoring step:
+	Epochs seen: 61
+	Batches seen: 2074
+	Examples seen: 207400
+	learning_rate: 0.01
+	momentum: 0.618072
+	train_h0_kernel_norms_max: 0.705186
+	train_h0_kernel_norms_mean: 0.349159
+	train_h0_kernel_norms_min: 0.160907
+	train_h1_kernel_norms_max: 1.31638
+	train_h1_kernel_norms_mean: 1.22764
+	train_h1_kernel_norms_min: 1.16313
+	train_objective: 0.604068
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.91109
+	train_y_col_norms_min: 1.84759
+	train_y_max_max_class: 0.999919
+	train_y_mean_max_class: 0.7332
+	train_y_min_max_class: 0.28111
+	train_y_misclass: 0.204412
+	train_y_nll: 0.604068
+	train_y_row_norms_max: 0.403289
+	train_y_row_norms_mean: 0.150251
+	train_y_row_norms_min: 0.0510512
+	valid_h0_kernel_norms_max: 0.705186
+	valid_h0_kernel_norms_mean: 0.349158
+	valid_h0_kernel_norms_min: 0.160907
+	valid_h1_kernel_norms_max: 1.31638
+	valid_h1_kernel_norms_mean: 1.22764
+	valid_h1_kernel_norms_min: 1.16313
+	valid_objective: 0.736616
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.91109
+	valid_y_col_norms_min: 1.84759
+	valid_y_max_max_class: 0.999082
+	valid_y_mean_max_class: 0.708481
+	valid_y_min_max_class: 0.26383
+	valid_y_misclass: 0.25
+	valid_y_nll: 0.736616
+	valid_y_row_norms_max: 0.403289
+	valid_y_row_norms_mean: 0.150251
+	valid_y_row_norms_min: 0.0510512
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.258709 seconds
+Time this epoch: 0:03:31.326993
+Monitoring step:
+	Epochs seen: 62
+	Batches seen: 2108
+	Examples seen: 210800
+	learning_rate: 0.01
+	momentum: 0.62004
+	train_h0_kernel_norms_max: 0.710898
+	train_h0_kernel_norms_mean: 0.351847
+	train_h0_kernel_norms_min: 0.161991
+	train_h1_kernel_norms_max: 1.31831
+	train_h1_kernel_norms_mean: 1.22907
+	train_h1_kernel_norms_min: 1.16348
+	train_objective: 0.571286
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.9135
+	train_y_col_norms_min: 1.85389
+	train_y_max_max_class: 0.999959
+	train_y_mean_max_class: 0.761112
+	train_y_min_max_class: 0.292486
+	train_y_misclass: 0.192353
+	train_y_nll: 0.571286
+	train_y_row_norms_max: 0.405429
+	train_y_row_norms_mean: 0.150385
+	train_y_row_norms_min: 0.0499359
+	valid_h0_kernel_norms_max: 0.710898
+	valid_h0_kernel_norms_mean: 0.351847
+	valid_h0_kernel_norms_min: 0.161991
+	valid_h1_kernel_norms_max: 1.31831
+	valid_h1_kernel_norms_mean: 1.22907
+	valid_h1_kernel_norms_min: 1.16348
+	valid_objective: 0.706769
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.9135
+	valid_y_col_norms_min: 1.85389
+	valid_y_max_max_class: 0.99966
+	valid_y_mean_max_class: 0.741837
+	valid_y_min_max_class: 0.26643
+	valid_y_misclass: 0.242857
+	valid_y_nll: 0.706769
+	valid_y_row_norms_max: 0.405429
+	valid_y_row_norms_mean: 0.150385
+	valid_y_row_norms_min: 0.0499359
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 2.068392 seconds
+Time this epoch: 0:03:25.193635
+Monitoring step:
+	Epochs seen: 63
+	Batches seen: 2142
+	Examples seen: 214200
+	learning_rate: 0.01
+	momentum: 0.622008
+	train_h0_kernel_norms_max: 0.719714
+	train_h0_kernel_norms_mean: 0.354477
+	train_h0_kernel_norms_min: 0.16453
+	train_h1_kernel_norms_max: 1.3225
+	train_h1_kernel_norms_mean: 1.23046
+	train_h1_kernel_norms_min: 1.16404
+	train_objective: 0.581548
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.91665
+	train_y_col_norms_min: 1.85995
+	train_y_max_max_class: 0.999948
+	train_y_mean_max_class: 0.735335
+	train_y_min_max_class: 0.281795
+	train_y_misclass: 0.199118
+	train_y_nll: 0.581548
+	train_y_row_norms_max: 0.407958
+	train_y_row_norms_mean: 0.150556
+	train_y_row_norms_min: 0.0466444
+	valid_h0_kernel_norms_max: 0.719714
+	valid_h0_kernel_norms_mean: 0.354477
+	valid_h0_kernel_norms_min: 0.16453
+	valid_h1_kernel_norms_max: 1.3225
+	valid_h1_kernel_norms_mean: 1.23046
+	valid_h1_kernel_norms_min: 1.16404
+	valid_objective: 0.708733
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.91665
+	valid_y_col_norms_min: 1.85995
+	valid_y_max_max_class: 0.999568
+	valid_y_mean_max_class: 0.714312
+	valid_y_min_max_class: 0.267675
+	valid_y_misclass: 0.235714
+	valid_y_nll: 0.708733
+	valid_y_row_norms_max: 0.407958
+	valid_y_row_norms_mean: 0.150556
+	valid_y_row_norms_min: 0.0466443
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.361391 seconds
+Time this epoch: 0:03:27.529900
+Monitoring step:
+	Epochs seen: 64
+	Batches seen: 2176
+	Examples seen: 217600
+	learning_rate: 0.01
+	momentum: 0.623976
+	train_h0_kernel_norms_max: 0.721733
+	train_h0_kernel_norms_mean: 0.356357
+	train_h0_kernel_norms_min: 0.166014
+	train_h1_kernel_norms_max: 1.3235
+	train_h1_kernel_norms_mean: 1.23167
+	train_h1_kernel_norms_min: 1.16424
+	train_objective: 0.600137
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.91902
+	train_y_col_norms_min: 1.865
+	train_y_max_max_class: 0.999968
+	train_y_mean_max_class: 0.728577
+	train_y_min_max_class: 0.278387
+	train_y_misclass: 0.210882
+	train_y_nll: 0.600137
+	train_y_row_norms_max: 0.407493
+	train_y_row_norms_mean: 0.150693
+	train_y_row_norms_min: 0.0468866
+	valid_h0_kernel_norms_max: 0.721733
+	valid_h0_kernel_norms_mean: 0.356357
+	valid_h0_kernel_norms_min: 0.166013
+	valid_h1_kernel_norms_max: 1.3235
+	valid_h1_kernel_norms_mean: 1.23167
+	valid_h1_kernel_norms_min: 1.16424
+	valid_objective: 0.744106
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.91902
+	valid_y_col_norms_min: 1.865
+	valid_y_max_max_class: 0.999605
+	valid_y_mean_max_class: 0.709432
+	valid_y_min_max_class: 0.264918
+	valid_y_misclass: 0.247143
+	valid_y_nll: 0.744106
+	valid_y_row_norms_max: 0.407493
+	valid_y_row_norms_mean: 0.150693
+	valid_y_row_norms_min: 0.0468866
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.210356 seconds
+Time this epoch: 0:03:20.145500
+Monitoring step:
+	Epochs seen: 65
+	Batches seen: 2210
+	Examples seen: 221000
+	learning_rate: 0.01
+	momentum: 0.625944
+	train_h0_kernel_norms_max: 0.726104
+	train_h0_kernel_norms_mean: 0.358045
+	train_h0_kernel_norms_min: 0.16641
+	train_h1_kernel_norms_max: 1.32497
+	train_h1_kernel_norms_mean: 1.23285
+	train_h1_kernel_norms_min: 1.16443
+	train_objective: 0.581175
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.92122
+	train_y_col_norms_min: 1.87006
+	train_y_max_max_class: 0.999845
+	train_y_mean_max_class: 0.726572
+	train_y_min_max_class: 0.283099
+	train_y_misclass: 0.193529
+	train_y_nll: 0.581175
+	train_y_row_norms_max: 0.40988
+	train_y_row_norms_mean: 0.150842
+	train_y_row_norms_min: 0.0514368
+	valid_h0_kernel_norms_max: 0.726105
+	valid_h0_kernel_norms_mean: 0.358045
+	valid_h0_kernel_norms_min: 0.16641
+	valid_h1_kernel_norms_max: 1.32497
+	valid_h1_kernel_norms_mean: 1.23285
+	valid_h1_kernel_norms_min: 1.16443
+	valid_objective: 0.744007
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.92122
+	valid_y_col_norms_min: 1.87006
+	valid_y_max_max_class: 0.999496
+	valid_y_mean_max_class: 0.701964
+	valid_y_min_max_class: 0.269017
+	valid_y_misclass: 0.25
+	valid_y_nll: 0.744007
+	valid_y_row_norms_max: 0.40988
+	valid_y_row_norms_mean: 0.150842
+	valid_y_row_norms_min: 0.0514368
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.217077 seconds
+Time this epoch: 0:03:21.439967
+Monitoring step:
+	Epochs seen: 66
+	Batches seen: 2244
+	Examples seen: 224400
+	learning_rate: 0.01
+	momentum: 0.627912
+	train_h0_kernel_norms_max: 0.72565
+	train_h0_kernel_norms_mean: 0.359832
+	train_h0_kernel_norms_min: 0.169266
+	train_h1_kernel_norms_max: 1.32638
+	train_h1_kernel_norms_mean: 1.23407
+	train_h1_kernel_norms_min: 1.16463
+	train_objective: 0.534695
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.92378
+	train_y_col_norms_min: 1.87395
+	train_y_max_max_class: 0.999933
+	train_y_mean_max_class: 0.752882
+	train_y_min_max_class: 0.277681
+	train_y_misclass: 0.181176
+	train_y_nll: 0.534695
+	train_y_row_norms_max: 0.408855
+	train_y_row_norms_mean: 0.151026
+	train_y_row_norms_min: 0.0506889
+	valid_h0_kernel_norms_max: 0.72565
+	valid_h0_kernel_norms_mean: 0.359832
+	valid_h0_kernel_norms_min: 0.169266
+	valid_h1_kernel_norms_max: 1.32638
+	valid_h1_kernel_norms_mean: 1.23407
+	valid_h1_kernel_norms_min: 1.16463
+	valid_objective: 0.673248
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.92378
+	valid_y_col_norms_min: 1.87395
+	valid_y_max_max_class: 0.999637
+	valid_y_mean_max_class: 0.735658
+	valid_y_min_max_class: 0.261793
+	valid_y_misclass: 0.208571
+	valid_y_nll: 0.673248
+	valid_y_row_norms_max: 0.408855
+	valid_y_row_norms_mean: 0.151026
+	valid_y_row_norms_min: 0.0506889
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.216681 seconds
+Time this epoch: 0:03:35.420066
+Monitoring step:
+	Epochs seen: 67
+	Batches seen: 2278
+	Examples seen: 227800
+	learning_rate: 0.01
+	momentum: 0.629879
+	train_h0_kernel_norms_max: 0.730176
+	train_h0_kernel_norms_mean: 0.362362
+	train_h0_kernel_norms_min: 0.170311
+	train_h1_kernel_norms_max: 1.32798
+	train_h1_kernel_norms_mean: 1.23556
+	train_h1_kernel_norms_min: 1.16485
+	train_objective: 0.542169
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.92614
+	train_y_col_norms_min: 1.88128
+	train_y_max_max_class: 0.999907
+	train_y_mean_max_class: 0.749197
+	train_y_min_max_class: 0.285622
+	train_y_misclass: 0.181176
+	train_y_nll: 0.542169
+	train_y_row_norms_max: 0.411975
+	train_y_row_norms_mean: 0.151157
+	train_y_row_norms_min: 0.049953
+	valid_h0_kernel_norms_max: 0.730176
+	valid_h0_kernel_norms_mean: 0.362361
+	valid_h0_kernel_norms_min: 0.170311
+	valid_h1_kernel_norms_max: 1.32798
+	valid_h1_kernel_norms_mean: 1.23556
+	valid_h1_kernel_norms_min: 1.16485
+	valid_objective: 0.69613
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.92614
+	valid_y_col_norms_min: 1.88128
+	valid_y_max_max_class: 0.999264
+	valid_y_mean_max_class: 0.72279
+	valid_y_min_max_class: 0.261267
+	valid_y_misclass: 0.228571
+	valid_y_nll: 0.69613
+	valid_y_row_norms_max: 0.411975
+	valid_y_row_norms_mean: 0.151157
+	valid_y_row_norms_min: 0.049953
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.211289 seconds
+Time this epoch: 0:03:21.482835
+Monitoring step:
+	Epochs seen: 68
+	Batches seen: 2312
+	Examples seen: 231200
+	learning_rate: 0.01
+	momentum: 0.631848
+	train_h0_kernel_norms_max: 0.72927
+	train_h0_kernel_norms_mean: 0.364816
+	train_h0_kernel_norms_min: 0.170428
+	train_h1_kernel_norms_max: 1.3291
+	train_h1_kernel_norms_mean: 1.23697
+	train_h1_kernel_norms_min: 1.1648
+	train_objective: 0.546005
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.92656
+	train_y_col_norms_min: 1.88721
+	train_y_max_max_class: 0.999945
+	train_y_mean_max_class: 0.746908
+	train_y_min_max_class: 0.287892
+	train_y_misclass: 0.183824
+	train_y_nll: 0.546005
+	train_y_row_norms_max: 0.413716
+	train_y_row_norms_mean: 0.151165
+	train_y_row_norms_min: 0.0472666
+	valid_h0_kernel_norms_max: 0.72927
+	valid_h0_kernel_norms_mean: 0.364816
+	valid_h0_kernel_norms_min: 0.170428
+	valid_h1_kernel_norms_max: 1.3291
+	valid_h1_kernel_norms_mean: 1.23697
+	valid_h1_kernel_norms_min: 1.1648
+	valid_objective: 0.682356
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.92656
+	valid_y_col_norms_min: 1.88721
+	valid_y_max_max_class: 0.999221
+	valid_y_mean_max_class: 0.724067
+	valid_y_min_max_class: 0.28179
+	valid_y_misclass: 0.224286
+	valid_y_nll: 0.682356
+	valid_y_row_norms_max: 0.413716
+	valid_y_row_norms_mean: 0.151165
+	valid_y_row_norms_min: 0.0472666
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.221453 seconds
+Time this epoch: 0:03:25.625872
+Monitoring step:
+	Epochs seen: 69
+	Batches seen: 2346
+	Examples seen: 234600
+	learning_rate: 0.01
+	momentum: 0.633815
+	train_h0_kernel_norms_max: 0.723373
+	train_h0_kernel_norms_mean: 0.366677
+	train_h0_kernel_norms_min: 0.169393
+	train_h1_kernel_norms_max: 1.32947
+	train_h1_kernel_norms_mean: 1.2383
+	train_h1_kernel_norms_min: 1.16511
+	train_objective: 0.570539
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.92916
+	train_y_col_norms_min: 1.8918
+	train_y_max_max_class: 0.999795
+	train_y_mean_max_class: 0.745256
+	train_y_min_max_class: 0.283197
+	train_y_misclass: 0.188235
+	train_y_nll: 0.570539
+	train_y_row_norms_max: 0.419916
+	train_y_row_norms_mean: 0.151314
+	train_y_row_norms_min: 0.0471394
+	valid_h0_kernel_norms_max: 0.723373
+	valid_h0_kernel_norms_mean: 0.366677
+	valid_h0_kernel_norms_min: 0.169393
+	valid_h1_kernel_norms_max: 1.32947
+	valid_h1_kernel_norms_mean: 1.2383
+	valid_h1_kernel_norms_min: 1.16511
+	valid_objective: 0.719988
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.92916
+	valid_y_col_norms_min: 1.8918
+	valid_y_max_max_class: 0.999051
+	valid_y_mean_max_class: 0.719552
+	valid_y_min_max_class: 0.265647
+	valid_y_misclass: 0.228571
+	valid_y_nll: 0.719988
+	valid_y_row_norms_max: 0.419916
+	valid_y_row_norms_mean: 0.151314
+	valid_y_row_norms_min: 0.0471394
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.236156 seconds
+Time this epoch: 0:03:24.654182
+Monitoring step:
+	Epochs seen: 70
+	Batches seen: 2380
+	Examples seen: 238000
+	learning_rate: 0.01
+	momentum: 0.635783
+	train_h0_kernel_norms_max: 0.72863
+	train_h0_kernel_norms_mean: 0.369063
+	train_h0_kernel_norms_min: 0.170827
+	train_h1_kernel_norms_max: 1.33116
+	train_h1_kernel_norms_mean: 1.2398
+	train_h1_kernel_norms_min: 1.16521
+	train_objective: 0.573644
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.92996
+	train_y_col_norms_min: 1.89566
+	train_y_max_max_class: 0.999978
+	train_y_mean_max_class: 0.741641
+	train_y_min_max_class: 0.276327
+	train_y_misclass: 0.185294
+	train_y_nll: 0.573644
+	train_y_row_norms_max: 0.421523
+	train_y_row_norms_mean: 0.15136
+	train_y_row_norms_min: 0.0462063
+	valid_h0_kernel_norms_max: 0.72863
+	valid_h0_kernel_norms_mean: 0.369063
+	valid_h0_kernel_norms_min: 0.170827
+	valid_h1_kernel_norms_max: 1.33116
+	valid_h1_kernel_norms_mean: 1.2398
+	valid_h1_kernel_norms_min: 1.16521
+	valid_objective: 0.722973
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.92996
+	valid_y_col_norms_min: 1.89566
+	valid_y_max_max_class: 0.999657
+	valid_y_mean_max_class: 0.72102
+	valid_y_min_max_class: 0.26906
+	valid_y_misclass: 0.231429
+	valid_y_nll: 0.722973
+	valid_y_row_norms_max: 0.421523
+	valid_y_row_norms_mean: 0.15136
+	valid_y_row_norms_min: 0.0462063
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.215619 seconds
+Time this epoch: 0:03:29.735169
+Monitoring step:
+	Epochs seen: 71
+	Batches seen: 2414
+	Examples seen: 241400
+	learning_rate: 0.01
+	momentum: 0.637751
+	train_h0_kernel_norms_max: 0.734331
+	train_h0_kernel_norms_mean: 0.371374
+	train_h0_kernel_norms_min: 0.170446
+	train_h1_kernel_norms_max: 1.3307
+	train_h1_kernel_norms_mean: 1.24127
+	train_h1_kernel_norms_min: 1.16543
+	train_objective: 0.524493
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.93174
+	train_y_col_norms_min: 1.90497
+	train_y_max_max_class: 0.999985
+	train_y_mean_max_class: 0.772641
+	train_y_min_max_class: 0.29493
+	train_y_misclass: 0.181176
+	train_y_nll: 0.524493
+	train_y_row_norms_max: 0.42323
+	train_y_row_norms_mean: 0.151486
+	train_y_row_norms_min: 0.0465874
+	valid_h0_kernel_norms_max: 0.734331
+	valid_h0_kernel_norms_mean: 0.371374
+	valid_h0_kernel_norms_min: 0.170446
+	valid_h1_kernel_norms_max: 1.3307
+	valid_h1_kernel_norms_mean: 1.24127
+	valid_h1_kernel_norms_min: 1.16543
+	valid_objective: 0.6446
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.93174
+	valid_y_col_norms_min: 1.90497
+	valid_y_max_max_class: 0.999661
+	valid_y_mean_max_class: 0.763197
+	valid_y_min_max_class: 0.277208
+	valid_y_misclass: 0.198571
+	valid_y_nll: 0.6446
+	valid_y_row_norms_max: 0.423231
+	valid_y_row_norms_mean: 0.151486
+	valid_y_row_norms_min: 0.0465874
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.226661 seconds
+Time this epoch: 0:03:24.820718
+Monitoring step:
+	Epochs seen: 72
+	Batches seen: 2448
+	Examples seen: 244800
+	learning_rate: 0.01
+	momentum: 0.639719
+	train_h0_kernel_norms_max: 0.739131
+	train_h0_kernel_norms_mean: 0.374194
+	train_h0_kernel_norms_min: 0.1747
+	train_h1_kernel_norms_max: 1.33546
+	train_h1_kernel_norms_mean: 1.24284
+	train_h1_kernel_norms_min: 1.16575
+	train_objective: 0.536026
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.93247
+	train_y_col_norms_min: 1.91051
+	train_y_max_max_class: 0.999919
+	train_y_mean_max_class: 0.764627
+	train_y_min_max_class: 0.282083
+	train_y_misclass: 0.170588
+	train_y_nll: 0.536026
+	train_y_row_norms_max: 0.426581
+	train_y_row_norms_mean: 0.151466
+	train_y_row_norms_min: 0.0449971
+	valid_h0_kernel_norms_max: 0.739131
+	valid_h0_kernel_norms_mean: 0.374193
+	valid_h0_kernel_norms_min: 0.1747
+	valid_h1_kernel_norms_max: 1.33546
+	valid_h1_kernel_norms_mean: 1.24284
+	valid_h1_kernel_norms_min: 1.16575
+	valid_objective: 0.685763
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.93247
+	valid_y_col_norms_min: 1.91052
+	valid_y_max_max_class: 0.999442
+	valid_y_mean_max_class: 0.741533
+	valid_y_min_max_class: 0.267355
+	valid_y_misclass: 0.222857
+	valid_y_nll: 0.685763
+	valid_y_row_norms_max: 0.426581
+	valid_y_row_norms_mean: 0.151466
+	valid_y_row_norms_min: 0.0449971
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.219670 seconds
+Time this epoch: 0:03:29.631903
+Monitoring step:
+	Epochs seen: 73
+	Batches seen: 2482
+	Examples seen: 248200
+	learning_rate: 0.01
+	momentum: 0.641687
+	train_h0_kernel_norms_max: 0.744879
+	train_h0_kernel_norms_mean: 0.376354
+	train_h0_kernel_norms_min: 0.174773
+	train_h1_kernel_norms_max: 1.3357
+	train_h1_kernel_norms_mean: 1.24428
+	train_h1_kernel_norms_min: 1.16576
+	train_objective: 0.511687
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.93343
+	train_y_col_norms_min: 1.91702
+	train_y_max_max_class: 0.999938
+	train_y_mean_max_class: 0.768182
+	train_y_min_max_class: 0.289868
+	train_y_misclass: 0.173529
+	train_y_nll: 0.511687
+	train_y_row_norms_max: 0.432054
+	train_y_row_norms_mean: 0.151494
+	train_y_row_norms_min: 0.0429512
+	valid_h0_kernel_norms_max: 0.744879
+	valid_h0_kernel_norms_mean: 0.376354
+	valid_h0_kernel_norms_min: 0.174773
+	valid_h1_kernel_norms_max: 1.3357
+	valid_h1_kernel_norms_mean: 1.24428
+	valid_h1_kernel_norms_min: 1.16576
+	valid_objective: 0.655615
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.93343
+	valid_y_col_norms_min: 1.91702
+	valid_y_max_max_class: 0.999188
+	valid_y_mean_max_class: 0.750877
+	valid_y_min_max_class: 0.29604
+	valid_y_misclass: 0.207143
+	valid_y_nll: 0.655615
+	valid_y_row_norms_max: 0.432054
+	valid_y_row_norms_mean: 0.151494
+	valid_y_row_norms_min: 0.0429512
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.245769 seconds
+Time this epoch: 0:03:30.487189
+Monitoring step:
+	Epochs seen: 74
+	Batches seen: 2516
+	Examples seen: 251600
+	learning_rate: 0.01
+	momentum: 0.643655
+	train_h0_kernel_norms_max: 0.745796
+	train_h0_kernel_norms_mean: 0.378091
+	train_h0_kernel_norms_min: 0.174683
+	train_h1_kernel_norms_max: 1.33775
+	train_h1_kernel_norms_mean: 1.24564
+	train_h1_kernel_norms_min: 1.16578
+	train_objective: 0.523888
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.93374
+	train_y_col_norms_min: 1.92023
+	train_y_max_max_class: 0.999931
+	train_y_mean_max_class: 0.773747
+	train_y_min_max_class: 0.294085
+	train_y_misclass: 0.181471
+	train_y_nll: 0.523888
+	train_y_row_norms_max: 0.431899
+	train_y_row_norms_mean: 0.151489
+	train_y_row_norms_min: 0.0420553
+	valid_h0_kernel_norms_max: 0.745796
+	valid_h0_kernel_norms_mean: 0.378091
+	valid_h0_kernel_norms_min: 0.174683
+	valid_h1_kernel_norms_max: 1.33775
+	valid_h1_kernel_norms_mean: 1.24564
+	valid_h1_kernel_norms_min: 1.16578
+	valid_objective: 0.650638
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.93374
+	valid_y_col_norms_min: 1.92023
+	valid_y_max_max_class: 0.999168
+	valid_y_mean_max_class: 0.752275
+	valid_y_min_max_class: 0.280483
+	valid_y_misclass: 0.218571
+	valid_y_nll: 0.650638
+	valid_y_row_norms_max: 0.431899
+	valid_y_row_norms_mean: 0.151489
+	valid_y_row_norms_min: 0.0420553
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.227252 seconds
+Time this epoch: 0:03:45.699874
+Monitoring step:
+	Epochs seen: 75
+	Batches seen: 2550
+	Examples seen: 255000
+	learning_rate: 0.01
+	momentum: 0.645623
+	train_h0_kernel_norms_max: 0.745433
+	train_h0_kernel_norms_mean: 0.38017
+	train_h0_kernel_norms_min: 0.17706
+	train_h1_kernel_norms_max: 1.33892
+	train_h1_kernel_norms_mean: 1.24702
+	train_h1_kernel_norms_min: 1.16579
+	train_objective: 0.515065
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.93497
+	train_y_col_norms_min: 1.92618
+	train_y_max_max_class: 0.999905
+	train_y_mean_max_class: 0.758801
+	train_y_min_max_class: 0.281265
+	train_y_misclass: 0.168235
+	train_y_nll: 0.515065
+	train_y_row_norms_max: 0.434243
+	train_y_row_norms_mean: 0.151545
+	train_y_row_norms_min: 0.0417811
+	valid_h0_kernel_norms_max: 0.745433
+	valid_h0_kernel_norms_mean: 0.38017
+	valid_h0_kernel_norms_min: 0.17706
+	valid_h1_kernel_norms_max: 1.33892
+	valid_h1_kernel_norms_mean: 1.24702
+	valid_h1_kernel_norms_min: 1.16578
+	valid_objective: 0.672152
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.93498
+	valid_y_col_norms_min: 1.92618
+	valid_y_max_max_class: 0.999481
+	valid_y_mean_max_class: 0.732061
+	valid_y_min_max_class: 0.264153
+	valid_y_misclass: 0.222857
+	valid_y_nll: 0.672152
+	valid_y_row_norms_max: 0.434243
+	valid_y_row_norms_mean: 0.151545
+	valid_y_row_norms_min: 0.0417811
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.239524 seconds
+Time this epoch: 0:03:31.631230
+Monitoring step:
+	Epochs seen: 76
+	Batches seen: 2584
+	Examples seen: 258400
+	learning_rate: 0.01
+	momentum: 0.64759
+	train_h0_kernel_norms_max: 0.746902
+	train_h0_kernel_norms_mean: 0.382347
+	train_h0_kernel_norms_min: 0.176968
+	train_h1_kernel_norms_max: 1.3412
+	train_h1_kernel_norms_mean: 1.24839
+	train_h1_kernel_norms_min: 1.1658
+	train_objective: 0.504301
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.93502
+	train_y_col_norms_min: 1.92889
+	train_y_max_max_class: 0.999941
+	train_y_mean_max_class: 0.784451
+	train_y_min_max_class: 0.303507
+	train_y_misclass: 0.171176
+	train_y_nll: 0.504301
+	train_y_row_norms_max: 0.432248
+	train_y_row_norms_mean: 0.151483
+	train_y_row_norms_min: 0.0401706
+	valid_h0_kernel_norms_max: 0.746902
+	valid_h0_kernel_norms_mean: 0.382347
+	valid_h0_kernel_norms_min: 0.176968
+	valid_h1_kernel_norms_max: 1.3412
+	valid_h1_kernel_norms_mean: 1.24839
+	valid_h1_kernel_norms_min: 1.1658
+	valid_objective: 0.655273
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.93502
+	valid_y_col_norms_min: 1.92889
+	valid_y_max_max_class: 0.999738
+	valid_y_mean_max_class: 0.76443
+	valid_y_min_max_class: 0.284818
+	valid_y_misclass: 0.21
+	valid_y_nll: 0.655273
+	valid_y_row_norms_max: 0.432248
+	valid_y_row_norms_mean: 0.151483
+	valid_y_row_norms_min: 0.0401706
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.270925 seconds
+Time this epoch: 0:03:33.895745
+Monitoring step:
+	Epochs seen: 77
+	Batches seen: 2618
+	Examples seen: 261800
+	learning_rate: 0.01
+	momentum: 0.649558
+	train_h0_kernel_norms_max: 0.753705
+	train_h0_kernel_norms_mean: 0.384724
+	train_h0_kernel_norms_min: 0.182256
+	train_h1_kernel_norms_max: 1.34526
+	train_h1_kernel_norms_mean: 1.24993
+	train_h1_kernel_norms_min: 1.16577
+	train_objective: 0.510186
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.93586
+	train_y_col_norms_min: 1.93242
+	train_y_max_max_class: 0.999991
+	train_y_mean_max_class: 0.775411
+	train_y_min_max_class: 0.285672
+	train_y_misclass: 0.170294
+	train_y_nll: 0.510186
+	train_y_row_norms_max: 0.432454
+	train_y_row_norms_mean: 0.151513
+	train_y_row_norms_min: 0.0389852
+	valid_h0_kernel_norms_max: 0.753705
+	valid_h0_kernel_norms_mean: 0.384724
+	valid_h0_kernel_norms_min: 0.182256
+	valid_h1_kernel_norms_max: 1.34526
+	valid_h1_kernel_norms_mean: 1.24993
+	valid_h1_kernel_norms_min: 1.16577
+	valid_objective: 0.663723
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.93586
+	valid_y_col_norms_min: 1.93242
+	valid_y_max_max_class: 0.999766
+	valid_y_mean_max_class: 0.754159
+	valid_y_min_max_class: 0.258194
+	valid_y_misclass: 0.208571
+	valid_y_nll: 0.663723
+	valid_y_row_norms_max: 0.432454
+	valid_y_row_norms_mean: 0.151513
+	valid_y_row_norms_min: 0.0389852
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.233886 seconds
+Time this epoch: 0:03:24.552955
+Monitoring step:
+	Epochs seen: 78
+	Batches seen: 2652
+	Examples seen: 265200
+	learning_rate: 0.01
+	momentum: 0.651526
+	train_h0_kernel_norms_max: 0.759378
+	train_h0_kernel_norms_mean: 0.386846
+	train_h0_kernel_norms_min: 0.182091
+	train_h1_kernel_norms_max: 1.34564
+	train_h1_kernel_norms_mean: 1.25146
+	train_h1_kernel_norms_min: 1.16579
+	train_objective: 0.511329
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.93646
+	train_y_col_norms_min: 1.93633
+	train_y_max_max_class: 0.999982
+	train_y_mean_max_class: 0.756027
+	train_y_min_max_class: 0.286974
+	train_y_misclass: 0.166765
+	train_y_nll: 0.511329
+	train_y_row_norms_max: 0.432302
+	train_y_row_norms_mean: 0.151531
+	train_y_row_norms_min: 0.038774
+	valid_h0_kernel_norms_max: 0.759378
+	valid_h0_kernel_norms_mean: 0.386846
+	valid_h0_kernel_norms_min: 0.182091
+	valid_h1_kernel_norms_max: 1.34564
+	valid_h1_kernel_norms_mean: 1.25146
+	valid_h1_kernel_norms_min: 1.16579
+	valid_objective: 0.663111
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.93646
+	valid_y_col_norms_min: 1.93633
+	valid_y_max_max_class: 0.99978
+	valid_y_mean_max_class: 0.738287
+	valid_y_min_max_class: 0.258921
+	valid_y_misclass: 0.208571
+	valid_y_nll: 0.663111
+	valid_y_row_norms_max: 0.432303
+	valid_y_row_norms_mean: 0.151531
+	valid_y_row_norms_min: 0.038774
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.278165 seconds
+Time this epoch: 0:03:22.224070
+Monitoring step:
+	Epochs seen: 79
+	Batches seen: 2686
+	Examples seen: 268600
+	learning_rate: 0.01
+	momentum: 0.653494
+	train_h0_kernel_norms_max: 0.761434
+	train_h0_kernel_norms_mean: 0.388868
+	train_h0_kernel_norms_min: 0.185352
+	train_h1_kernel_norms_max: 1.34397
+	train_h1_kernel_norms_mean: 1.25285
+	train_h1_kernel_norms_min: 1.16581
+	train_objective: 0.486333
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.93627
+	train_y_col_norms_min: 1.93572
+	train_y_max_max_class: 0.999974
+	train_y_mean_max_class: 0.761675
+	train_y_min_max_class: 0.289763
+	train_y_misclass: 0.161471
+	train_y_nll: 0.486333
+	train_y_row_norms_max: 0.432875
+	train_y_row_norms_mean: 0.151485
+	train_y_row_norms_min: 0.0386585
+	valid_h0_kernel_norms_max: 0.761434
+	valid_h0_kernel_norms_mean: 0.388868
+	valid_h0_kernel_norms_min: 0.185352
+	valid_h1_kernel_norms_max: 1.34397
+	valid_h1_kernel_norms_mean: 1.25285
+	valid_h1_kernel_norms_min: 1.16581
+	valid_objective: 0.652221
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.93627
+	valid_y_col_norms_min: 1.93572
+	valid_y_max_max_class: 0.999528
+	valid_y_mean_max_class: 0.740078
+	valid_y_min_max_class: 0.28888
+	valid_y_misclass: 0.217143
+	valid_y_nll: 0.652221
+	valid_y_row_norms_max: 0.432875
+	valid_y_row_norms_mean: 0.151485
+	valid_y_row_norms_min: 0.0386585
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.792356 seconds
+Time this epoch: 0:03:24.623938
+Monitoring step:
+	Epochs seen: 80
+	Batches seen: 2720
+	Examples seen: 272000
+	learning_rate: 0.01
+	momentum: 0.655462
+	train_h0_kernel_norms_max: 0.763444
+	train_h0_kernel_norms_mean: 0.390527
+	train_h0_kernel_norms_min: 0.187599
+	train_h1_kernel_norms_max: 1.34175
+	train_h1_kernel_norms_mean: 1.25416
+	train_h1_kernel_norms_min: 1.16579
+	train_objective: 0.497741
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.93608
+	train_y_col_norms_min: 1.93553
+	train_y_max_max_class: 0.99999
+	train_y_mean_max_class: 0.782019
+	train_y_min_max_class: 0.296396
+	train_y_misclass: 0.171471
+	train_y_nll: 0.497741
+	train_y_row_norms_max: 0.435394
+	train_y_row_norms_mean: 0.151441
+	train_y_row_norms_min: 0.039658
+	valid_h0_kernel_norms_max: 0.763444
+	valid_h0_kernel_norms_mean: 0.390527
+	valid_h0_kernel_norms_min: 0.187599
+	valid_h1_kernel_norms_max: 1.34175
+	valid_h1_kernel_norms_mean: 1.25416
+	valid_h1_kernel_norms_min: 1.16579
+	valid_objective: 0.660282
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.93608
+	valid_y_col_norms_min: 1.93553
+	valid_y_max_max_class: 0.999831
+	valid_y_mean_max_class: 0.765983
+	valid_y_min_max_class: 0.304098
+	valid_y_misclass: 0.22
+	valid_y_nll: 0.660282
+	valid_y_row_norms_max: 0.435394
+	valid_y_row_norms_mean: 0.151441
+	valid_y_row_norms_min: 0.0396581
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.219454 seconds
+Time this epoch: 0:03:25.965972
+Monitoring step:
+	Epochs seen: 81
+	Batches seen: 2754
+	Examples seen: 275400
+	learning_rate: 0.01
+	momentum: 0.65743
+	train_h0_kernel_norms_max: 0.763985
+	train_h0_kernel_norms_mean: 0.392688
+	train_h0_kernel_norms_min: 0.185883
+	train_h1_kernel_norms_max: 1.34423
+	train_h1_kernel_norms_mean: 1.2556
+	train_h1_kernel_norms_min: 1.16577
+	train_objective: 0.484809
+	train_y_col_norms_max: 1.9365
+	train_y_col_norms_mean: 1.93642
+	train_y_col_norms_min: 1.93601
+	train_y_max_max_class: 0.999971
+	train_y_mean_max_class: 0.774773
+	train_y_min_max_class: 0.289733
+	train_y_misclass: 0.154118
+	train_y_nll: 0.484809
+	train_y_row_norms_max: 0.440649
+	train_y_row_norms_mean: 0.151397
+	train_y_row_norms_min: 0.0383783
+	valid_h0_kernel_norms_max: 0.763985
+	valid_h0_kernel_norms_mean: 0.392688
+	valid_h0_kernel_norms_min: 0.185883
+	valid_h1_kernel_norms_max: 1.34423
+	valid_h1_kernel_norms_mean: 1.2556
+	valid_h1_kernel_norms_min: 1.16577
+	valid_objective: 0.649038
+	valid_y_col_norms_max: 1.9365
+	valid_y_col_norms_mean: 1.93642
+	valid_y_col_norms_min: 1.93601
+	valid_y_max_max_class: 0.999711
+	valid_y_mean_max_class: 0.756509
+	valid_y_min_max_class: 0.269725
+	valid_y_misclass: 0.221429
+	valid_y_nll: 0.649038
+	valid_y_row_norms_max: 0.440649
+	valid_y_row_norms_mean: 0.151397
+	valid_y_row_norms_min: 0.0383783
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.218203 seconds
+Saving to convolutionalh064h164dropI1h01h11SG.pkl...
+Saving to convolutionalh064h164dropI1h01h11SG.pkl done. Time elapsed: 0.200000 seconds
+return value 0
