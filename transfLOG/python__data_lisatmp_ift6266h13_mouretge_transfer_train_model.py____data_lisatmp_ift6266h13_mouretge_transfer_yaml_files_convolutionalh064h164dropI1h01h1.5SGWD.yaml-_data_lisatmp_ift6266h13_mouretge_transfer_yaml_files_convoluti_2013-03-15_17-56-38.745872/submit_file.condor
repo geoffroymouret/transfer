@@ -1,0 +1,37 @@
+executable     = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/launch.sh
+universe       = vanilla
+requirements   = True&&(Arch == "X86_64")&&(target.CPUS>=1)&&(Memory>=2000)&&(False  || (OpSys == "FC14"))
+output         = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/$(Process).out
+error          = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/$(Process).error
+log            = /Tmp/mouretge/dbidispatch/LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/condor.log
+getenv         = False
+nice_user      = False
+notification   = Error
+ImageSize      = 10
+environment    = " THEANO_FLAGS=floatX=float32 OMP_NUM_THREADS=1 GOTO_NUM_THREADS=1 MKL_NUM_THREADS=1 CONDOR_JOB_LOGDIR=LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872"
+rank = True
+
+request_memory = 2000
+
+request_cpus = 1
+
+stream_error            = True
+stream_output           = True
+transfer_executable     = True
+when_to_transfer_output = ON_EXIT
+arguments    = "'/opt/lisa/os/epd-7.1.2/bin/python /data/lisatmp/ift6266h13/mouretge/transfer/train_model.py /data/lisatmp/ift6266h13/mouretge/transfer/yaml_files/convolutionalh064h164dropI1h01h1.5SGWD.yaml'" 
+output       = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/0._data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1_5SGWD_yaml.out 
+error        = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/0._data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1_5SGWD_yaml.err 
+queue
+arguments    = "'/opt/lisa/os/epd-7.1.2/bin/python /data/lisatmp/ift6266h13/mouretge/transfer/train_model.py /data/lisatmp/ift6266h13/mouretge/transfer/yaml_files/convolutionalh064h164dropI1h0.5h1.5SGWD.yaml'" 
+output       = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/1._data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h0_5h1_5SGWD_yaml.out 
+error        = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/1._data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h0_5h1_5SGWD_yaml.err 
+queue
+arguments    = "'/opt/lisa/os/epd-7.1.2/bin/python /data/lisatmp/ift6266h13/mouretge/transfer/train_model.py /data/lisatmp/ift6266h13/mouretge/transfer/yaml_files/convolutionalh064h164dropI1h01h11SGWD.yaml'" 
+output       = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/2._data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h11SGWD_yaml.out 
+error        = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/2._data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h11SGWD_yaml.err 
+queue
+arguments    = "'/opt/lisa/os/epd-7.1.2/bin/python /data/lisatmp/ift6266h13/mouretge/transfer/train_model.py /data/lisatmp/ift6266h13/mouretge/transfer/yaml_files/convolutionalh064h164dropI1h0.5h11SGWD.yaml'" 
+output       = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/3._data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h0_5h11SGWD_yaml.out 
+error        = LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/3._data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h0_5h11SGWD_yaml.err 
+queue

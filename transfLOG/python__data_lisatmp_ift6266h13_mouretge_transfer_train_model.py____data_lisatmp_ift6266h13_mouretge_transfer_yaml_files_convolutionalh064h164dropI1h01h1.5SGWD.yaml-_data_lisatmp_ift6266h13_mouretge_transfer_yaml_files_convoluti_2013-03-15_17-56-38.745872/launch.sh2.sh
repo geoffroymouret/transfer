@@ -2,8 +2,8 @@
 export HOME=/u/mouretge
 
 cd /data/lisatmp/ift6266h13/mouretge/transfer
-[ -r "LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI.5h01h11.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutional_2013-03-13_15-26-25.967671/.bashrc" ];echo "Can read the source file? " $? 1>&2 
-source LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI.5h01h11.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutional_2013-03-13_15-26-25.967671/.bashrc
+[ -r "LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/.bashrc" ];echo "Can read the source file? " $? 1>&2 
+source LOGS.NOBACKUP/python__data_lisatmp_ift6266h13_mouretge_transfer_train_model.py____data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convolutionalh064h164dropI1h01h1.5SGWD.yaml-_data_lisatmp_ift6266h13_mouretge_transfer_yaml_files_convoluti_2013-03-15_17-56-38.745872/.bashrc
 klist -5
 echo "Executing on " `/bin/hostname` 1>&2
 echo "HOSTNAME: ${HOSTNAME}" 1>&2
