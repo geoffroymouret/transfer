@@ -5,7 +5,16 @@
         which_set: 'train',
         start: 0,
         stop: 6500,
-        preprocessor : !obj:pylearn2.datasets.preprocessing.Standardize {},
+        preprocessor : !obj:pylearn2.datasets.preprocessing.Pipeline {
+                           items : [
+                              !obj:pylearn2.datasets.preprocessing.Standardize {
+                              }, !obj:pylearn2.datasets.preprocessing.ShuffleAndSplit {
+                                     seed: 26,
+                                     start: 0,
+                                     stop: 6500,
+                              }
+                           ]
+        },
         fit_preprocessor: True,
         fit_test_preprocessor: True,
 },
@@ -15,7 +24,12 @@
         layers: [
                  !obj:pylearn2.models.mlp.Tanh {
                      layer_name: 'h0',
-                     dim: 300,
+                     dim: 3000,
+                     sparse_init: 15
+                 },
+                 !obj:pylearn2.models.mlp.Tanh {
+                     layer_name: 'h1',
+                     dim: 3000,
                      sparse_init: 15
                  },
                  !obj:pylearn2.models.mlp.Linear {
@@ -30,17 +44,24 @@
     # We use SGD as our training algorithm
     algorithm: !obj:pylearn2.training_algorithms.sgd.SGD {
         batch_size: 100,
-        learning_rate: 0.0003,
-        init_momentum: 0.9,
+        learning_rate: 0.003,
+        init_momentum: 0.1,
         # What we monitor
         monitoring_dataset:
             {
                 'train' : *train ,
                 'valid' : !obj:keypoints_dataset.FacialKeypointDataset {
                               which_set: 'train',
-                              start: 6500, # Keep the last 500 exemples as validation set
-                              stop: 7049,
-                              preprocessor : !obj:pylearn2.datasets.preprocessing.Standardize {},
+                              preprocessor : !obj:pylearn2.datasets.preprocessing.Pipeline {
+                                              items : [
+                                                 !obj:pylearn2.datasets.preprocessing.Standardize {
+                                                 }, !obj:pylearn2.datasets.preprocessing.ShuffleAndSplit {
+                                                        seed: 26,
+                                                        start: 6500,
+                                                        stop: 7049,
+                                                 }
+                                              ]
+                              },
                               fit_preprocessor: True,
                           }
                 # We don't have labels for the public test set
@@ -58,13 +79,13 @@
     extensions: [
         !obj:pylearn2.train_extensions.best_params.MonitorBasedSaveBest {
              channel_name: 'valid_objective',
-             save_path: "1MLP_LR_0003Mom_09_best.pkl"
+             save_path: "2MLP_LR_003Mom_01_h01_3000_best.pkl"
         }, !obj:pylearn2.training_algorithms.sgd.MomentumAdjustor {
             start: 1,
             saturate: 50,
             final_momentum: .99
         }
     ],
-    save_path: "1MLP_LR_0003Mom_09.pkl",
+    save_path: "2MLP_LR_003Mom_01_h01_3000.pkl",
     save_freq: 1
 }
