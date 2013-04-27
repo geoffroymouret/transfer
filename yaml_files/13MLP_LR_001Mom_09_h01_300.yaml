@@ -24,12 +24,12 @@
         layers: [
                  !obj:pylearn2.models.mlp.Tanh {
                      layer_name: 'h0',
-                     dim: 3000,
+                     dim: 300,
                      sparse_init: 15
                  },
                  !obj:pylearn2.models.mlp.Tanh {
                      layer_name: 'h1',
-                     dim: 3000,
+                     dim: 300,
                      sparse_init: 15
                  },
                  !obj:pylearn2.models.mlp.Linear {
@@ -44,8 +44,8 @@
     # We use SGD as our training algorithm
     algorithm: !obj:pylearn2.training_algorithms.sgd.SGD {
         batch_size: 100,
-        learning_rate: 0.003,
-        init_momentum: 0.1,
+        learning_rate: 0.001,
+        init_momentum: 0.9,
         # What we monitor
         monitoring_dataset:
             {
@@ -79,13 +79,13 @@
     extensions: [
         !obj:pylearn2.train_extensions.best_params.MonitorBasedSaveBest {
              channel_name: 'valid_objective',
-             save_path: "2MLP_LR_003Mom_01_h01_3000_best.pkl"
+             save_path: "13MLP_LR_001Mom_09_h01_300_best.pkl"
         }, !obj:pylearn2.training_algorithms.sgd.MomentumAdjustor {
             start: 1,
             saturate: 50,
             final_momentum: .99
         }
     ],
-    save_path: "2MLP_LR_003Mom_01_h01_3000.pkl",
+    save_path: "13MLP_LR_001Mom_09_h01_300.pkl",
     save_freq: 1
 }
