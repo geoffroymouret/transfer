@@ -1,0 +1,91 @@
+!obj:pylearn2.train.Train {
+
+    # Our dataset is the contest dataset of IFT6266
+    dataset: &train !obj:keypoints_dataset.FacialKeypointDataset {
+        which_set: 'train',
+        start: 0,
+        stop: 6500,
+        preprocessor : !obj:pylearn2.datasets.preprocessing.Pipeline {
+                           items : [
+                              !obj:pylearn2.datasets.preprocessing.Standardize {
+                              }, !obj:pylearn2.datasets.preprocessing.ShuffleAndSplit {
+                                     seed: 26,
+                                     start: 0,
+                                     stop: 6500,
+                              }
+                           ]
+        },
+        fit_preprocessor: True,
+        fit_test_preprocessor: True,
+},
+
+    # Our model will simply be a MLP with one Tanh layer
+    model: !obj:pylearn2.models.mlp.MLP {
+        layers: [
+                 !obj:pylearn2.models.mlp.Tanh {
+                     layer_name: 'h0',
+                     dim: 1000,
+                     sparse_init: 15
+                 },
+                 !obj:pylearn2.models.mlp.Tanh {
+                     layer_name: 'h1',
+                     dim: 1000,
+                     sparse_init: 15
+                 },
+                 !obj:pylearn2.models.mlp.Linear {
+                     layer_name: 'y',
+                     dim: 30,
+                     sparse_init: 5
+                 }
+                ],
+        nvis: 9216
+    },
+
+    # We use SGD as our training algorithm
+    algorithm: !obj:pylearn2.training_algorithms.sgd.SGD {
+        batch_size: 100,
+        learning_rate: 0.0003,
+        init_momentum: 0.3,
+        # What we monitor
+        monitoring_dataset:
+            {
+                'train' : *train ,
+                'valid' : !obj:keypoints_dataset.FacialKeypointDataset {
+                              which_set: 'train',
+                              preprocessor : !obj:pylearn2.datasets.preprocessing.Pipeline {
+                                              items : [
+                                                 !obj:pylearn2.datasets.preprocessing.Standardize {
+                                                 }, !obj:pylearn2.datasets.preprocessing.ShuffleAndSplit {
+                                                        seed: 26,
+                                                        start: 6500,
+                                                        stop: 7049,
+                                                 }
+                                              ]
+                              },
+                              fit_preprocessor: True,
+                          }
+                # We don't have labels for the public test set
+            },
+        # The cost function is
+        cost: !obj:pylearn2.costs.mlp.missing_target_cost.MissingTargetCost {
+        },
+        # The termination criteria
+        termination_criterion: !obj:pylearn2.termination_criteria.MonitorBased {
+            channel_name: "valid_objective",
+            prop_decrease: 0.,
+            N: 15
+        }
+    },
+    extensions: [
+        !obj:pylearn2.train_extensions.best_params.MonitorBasedSaveBest {
+             channel_name: 'valid_objective',
+             save_path: "16MLP_LR_0003Mom_03_h01_1000_best.pkl"
+        }, !obj:pylearn2.training_algorithms.sgd.MomentumAdjustor {
+            start: 1,
+            saturate: 50,
+            final_momentum: .99
+        }
+    ],
+    save_path: "16MLP_LR_0003Mom_03_h01_1000.pkl",
+    save_freq: 1
+}
